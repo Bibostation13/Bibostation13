@@ -1,6 +1,6 @@
-# baystation12 [![CI Status](https://github.com/Baystation12/Baystation12/workflows/Run%20Tests/badge.svg)](https://github.com/Baystation12/Baystation12/actions)
+# bibostation13 [![CI Status](https://github.com/Bibostation13/Bibostation13/workflows/Run%20Tests/badge.svg)](https://github.com/Bibostation13/Bibostation13/actions)
 
-[Website](https://baystation12.net/) - [Code](https://github.com/Baystation12/Baystation12/) - [Discord](https://discord.baystation12.net/) - [IRC](https://kiwiirc.com/client/irc.sorcery.net/codershuttle): irc://irc.sorcery.net/#codershuttle
+[Website (TBA)](https://to-be-added.soon/) | [Code](https://github.com/Bibostation13/Bibostation13/) | [Discord](https://discord.gg/xMRt7qMZ4n)
 
 ---
 
