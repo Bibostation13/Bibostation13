@@ -24,7 +24,7 @@ As a Baystation12 derivative, the code for Bibostation13 inherits a license unde
 
 As such, the entirety of Bibostation13 and all of its own derivatives must be developed and hosted in an open source manner. No version of Bibostation13 exists outside of the current license.
 
-Hosting a server using any code licensed under AGPLv3 means you are required to provide full source code for your servers users as well including addons and modifications you have made.
+Hosting a server using any code licensed under AGPLv3 means you are required to provide full source code for your servers users, as well as including the addons and modifications you have made.
 
 See [here](https://www.gnu.org/licenses/why-affero-gpl.html) for more information.
 
