@@ -20,7 +20,7 @@ Please see [/docs/SECURITY.md](/docs/SECURITY.md) for this repository's security
 
 ### LICENSE
 
-As a Baystation12 derivative, Bibostation13 inherits a license under the [GNU Affero General Public License v3](https://www.gnu.org/licenses/agpl.html). It can be found in full in [/LICENSE](/LICENSE).
+As a Baystation12 derivative, the code for Bibostation13 inherits a license under the [GNU Affero General Public License v3](https://www.gnu.org/licenses/agpl.html). It can be found in full in [/LICENSE](/LICENSE).
 
 As such, the entirety of Bibostation13 and all of its own derivatives must be developed and hosted in an open source manner. No version of Bibostation13 exists outside of the current license.
 
