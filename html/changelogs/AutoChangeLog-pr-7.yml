@@ -1,0 +1,5 @@
+author: Cupax3
+delete-after: true
+changes:
+  - bugfix: Aim mode, harm intent and being point blank no longer fires the weapon,
+      instead beginning aiming.
