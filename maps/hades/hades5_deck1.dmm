@@ -23961,7 +23961,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/floor_decal/hadesltdlogo{
+/obj/effect/floor_decal/torchltdlogo{
 	icon_state = "topleft"
 	},
 /turf/simulated/floor/tiled,
@@ -23975,7 +23975,7 @@
 /turf/simulated/floor/plating,
 /area/security/wing)
 "nKb" = (
-/obj/effect/floor_decal/hadesltdlogo{
+/obj/effect/floor_decal/torchltdlogo{
 	icon_state = "topright"
 	},
 /turf/simulated/floor/tiled,
@@ -24073,11 +24073,11 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/floor_decal/hadesltdlogo,
+/obj/effect/floor_decal/torchltdlogo,
 /turf/simulated/floor/tiled,
 /area/rnd/entry)
 "nSb" = (
-/obj/effect/floor_decal/hadesltdlogo{
+/obj/effect/floor_decal/torchltdlogo{
 	icon_state = "bottomright"
 	},
 /turf/simulated/floor/tiled,

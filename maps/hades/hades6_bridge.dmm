@@ -3342,7 +3342,7 @@
 	pixel_x = -21
 	},
 /obj/prefab/hand_teleporter,
-/obj/item/toy/hadesmodel,
+/obj/item/toy/torchmodel,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/cobed)
 "fW" = (
@@ -7310,7 +7310,7 @@
 /obj/item/device/radio/intercom{
 	pixel_y = 23
 	},
-/obj/item/toy/hadesmodel,
+/obj/item/toy/torchmodel,
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/random_multi/single_item/runtime,
 /turf/simulated/floor/wood/walnut,

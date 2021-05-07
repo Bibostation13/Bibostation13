@@ -33,7 +33,7 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/maintenance/fourthdeck/aft)
 "ai" = (
-/obj/effect/shuttle_landmark/scavver_gantry/hades/three,
+/obj/effect/shuttle_landmark/scavver_gantry/torch/three,
 /turf/space,
 /area/space)
 "aj" = (
@@ -4760,7 +4760,7 @@
 	locked = 1;
 	name = "EVA External Access"
 	},
-/obj/effect/shuttle_landmark/scavver_gantry/hades/two,
+/obj/effect/shuttle_landmark/scavver_gantry/torch/two,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/eva)
 "qR" = (
@@ -6369,7 +6369,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/waterstore)
 "ve" = (
-/obj/effect/shuttle_landmark/nav_verne/hades,
+/obj/effect/shuttle_landmark/nav_verne/torch,
 /turf/space,
 /area/space)
 "vh" = (
@@ -9483,7 +9483,7 @@
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/lounge)
 "Gt" = (
-/obj/effect/shuttle_landmark/scavver_gantry/hades,
+/obj/effect/shuttle_landmark/scavver_gantry/torch,
 /turf/space,
 /area/space)
 "Gu" = (
@@ -10991,7 +10991,7 @@
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/forestarboard)
 "Lv" = (
-/obj/effect/shuttle_landmark/ascent_caulship/hades,
+/obj/effect/shuttle_landmark/ascent_caulship/torch,
 /turf/space,
 /area/space)
 "Lw" = (
