@@ -1,15 +1,15 @@
 /obj/structure/sign/dedicationplaque
-	name = "\improper SEV Torch dedication plaque"
+	name = "\improper SEV Hades dedication plaque"
 	icon_state = "lightplaque"
 
 /obj/structure/sign/dedicationplaque/Initialize()
 	. = ..()
-	desc = "S.E.V. Torch - Mako Class - Sol Expeditionary Corps Registry 95519 - Shiva Fleet Yards, Mars - First Vessel To Bear The Name - Launched [GLOB.using_map.game_year - 5] - Sol Central Government - 'Never was anything great achieved without danger.'"
+	desc = "S.E.V. Hades - Mako Class - Sol Expeditionary Corps Registry 95519 - Shiva Fleet Yards, Mars - First Vessel To Bear The Name - Launched [GLOB.using_map.game_year - 5] - Sol Central Government - 'Never was anything great achieved without danger.'"
 
 /obj/structure/sign/ecplaque
 	name = "\improper Expeditionary Directives"
 	desc = "A plaque with Expeditionary Corps logo etched in it."
-	icon = 'maps/torch/icons/obj/solgov-decals.dmi'
+	icon = 'maps/hades/icons/obj/solgov-decals.dmi'
 	icon_state = "ecplaque"
 	var/directives = {"<hr><center>
 		1. <b>Exploring the unknown is your Primary Mission</b><br>
@@ -53,19 +53,19 @@
 
 /obj/effect/floor_decal/scglogo
 	alpha = 230
-	icon = 'maps/torch/icons/obj/solgov_floor.dmi'
+	icon = 'maps/hades/icons/obj/solgov_floor.dmi'
 	icon_state = "center"
 
 /obj/structure/sign/solgov
 	name = "\improper SolGov Seal"
 	desc = "A sign which signifies who this vessel belongs to."
-	icon = 'maps/torch/icons/obj/solgov-decals.dmi'
+	icon = 'maps/hades/icons/obj/solgov-decals.dmi'
 	icon_state = "solgovseal"
 
 /obj/structure/sign/double/solgovflag
 	name = "Sol Central Government Flag"
 	desc = "The flag of the Sol Central Government, a symbol of many things to many people."
-	icon = 'maps/torch/icons/obj/solgov-decals.dmi'
+	icon = 'maps/hades/icons/obj/solgov-decals.dmi'
 
 /obj/structure/sign/double/solgovflag/left
 	icon_state = "solgovflag-left"
@@ -76,7 +76,7 @@
 /obj/structure/sign/memorial
 	name = "\improper memorial rock"
 	desc = "A large stone slab, engraved with the names of uniformed personnel who gave their lives for scientific progress. Not a list you'd want to make. Add the dog tags of the fallen to the monument to memorialize them."
-	icon = 'maps/torch/icons/obj/solgov-64x.dmi'
+	icon = 'maps/hades/icons/obj/solgov-64x.dmi'
 	icon_state = "memorial"
 	density = TRUE
 	anchored = TRUE

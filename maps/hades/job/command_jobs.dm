@@ -5,7 +5,7 @@
 	economic_power = 16
 	minimum_character_age = list(SPECIES_HUMAN = 40)
 	ideal_character_age = 50
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/CO
+	outfit_type = /decl/hierarchy/outfit/job/hades/crew/command/CO
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps
 	)
@@ -42,10 +42,10 @@
 	economic_power = 14
 	minimum_character_age = list(SPECIES_HUMAN = 35)
 	ideal_character_age = 45
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/XO
+	outfit_type = /decl/hierarchy/outfit/job/hades/crew/command/XO
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
-		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/command/XO/fleet
+		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/hades/crew/command/XO/fleet
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/ec/o5,
@@ -72,7 +72,7 @@
 		access_expedition_shuttle_helm, access_aquila, access_aquila_helm, access_solgov_crew, access_nanotrasen,
 		access_emergency_armory, access_sec_guard, access_gun, access_expedition_shuttle, access_guppy, access_seneng, access_senmed, access_senadv,
 		access_explorer, access_pathfinder, access_pilot, access_commissary, access_petrov, access_petrov_helm, access_petrov_analysis, access_petrov_phoron,
-		access_petrov_toxins, access_petrov_chemistry, access_petrov_security, access_petrov_maint, access_rd, access_petrov_rd, access_torch_fax, access_torch_helm,
+		access_petrov_toxins, access_petrov_chemistry, access_petrov_security, access_petrov_maint, access_rd, access_petrov_rd, access_hades_fax, access_hades_helm,
 		access_radio_comm, access_radio_eng, access_radio_med, access_radio_sec, access_radio_sup, access_radio_serv, access_radio_exp, access_radio_sci
 	)
 
@@ -88,7 +88,7 @@
 		access_expedition_shuttle_helm, access_aquila, access_aquila_helm, access_solgov_crew, access_nanotrasen,
 		access_emergency_armory, access_sec_guard, access_gun, access_expedition_shuttle, access_guppy, access_seneng, access_senmed, access_senadv,
 		access_explorer, access_pathfinder, access_pilot, access_commissary, access_petrov, access_petrov_helm, access_petrov_analysis, access_petrov_phoron,
-		access_petrov_toxins, access_petrov_chemistry, access_petrov_security, access_petrov_maint, access_rd, access_petrov_rd, access_torch_fax, access_torch_helm,
+		access_petrov_toxins, access_petrov_chemistry, access_petrov_security, access_petrov_maint, access_rd, access_petrov_rd, access_hades_fax, access_hades_helm,
 		access_radio_comm, access_radio_eng, access_radio_med, access_radio_sec, access_radio_sup, access_radio_serv, access_radio_exp, access_radio_sci
 	)
 
@@ -107,7 +107,7 @@
 	minimal_player_age = 14
 	minimum_character_age = list(SPECIES_HUMAN = 35)
 	ideal_character_age = 60
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/research/cso
+	outfit_type = /decl/hierarchy/outfit/job/hades/crew/research/cso
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps
 	)
@@ -135,7 +135,7 @@
 		access_expedition_shuttle, access_guppy, access_hangar, access_petrov, access_petrov_helm, access_guppy_helm,
 		access_petrov_analysis, access_petrov_phoron, access_petrov_toxins, access_petrov_chemistry, access_petrov_rd,
 		access_petrov_security, access_petrov_maint, access_pathfinder, access_explorer, access_eva, access_solgov_crew,
-		access_expedition_shuttle, access_expedition_shuttle_helm, access_maint_tunnels, access_torch_fax, access_radio_comm,
+		access_expedition_shuttle, access_expedition_shuttle_helm, access_maint_tunnels, access_hades_fax, access_radio_comm,
 		access_radio_sci, access_radio_exp
 	)
 
@@ -156,10 +156,10 @@
 	minimal_player_age = 14
 	minimum_character_age = list(SPECIES_HUMAN = 35)
 	ideal_character_age = 48
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/cmo
+	outfit_type = /decl/hierarchy/outfit/job/hades/crew/command/cmo
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
-		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/command/cmo/fleet
+		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/hades/crew/command/cmo/fleet
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/fleet/o3,
@@ -182,7 +182,7 @@
 		access_teleporter, access_eva, access_bridge, access_heads,
 		access_chapel_office, access_crematorium, access_chemistry, access_virology, access_aquila,
 		access_cmo, access_surgery, access_RC_announce, access_keycard_auth, access_psychiatrist,
-		access_medical_equip, access_solgov_crew, access_senmed, access_hangar, access_torch_fax, access_radio_comm,
+		access_medical_equip, access_solgov_crew, access_senmed, access_hangar, access_hades_fax, access_radio_comm,
 		access_radio_med
 	)
 
@@ -203,10 +203,10 @@
 	minimum_character_age = list(SPECIES_HUMAN = 27)
 	ideal_character_age = 40
 	minimal_player_age = 14
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/chief_engineer
+	outfit_type = /decl/hierarchy/outfit/job/hades/crew/command/chief_engineer
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
-		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/command/chief_engineer/fleet
+		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/hades/crew/command/chief_engineer/fleet
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/ec/o3,
@@ -232,7 +232,7 @@
 		access_ai_upload, access_teleporter, access_eva, access_bridge, access_heads,
 		access_tech_storage, access_robotics, access_atmospherics, access_janitor, access_construction,
 		access_network, access_ce, access_RC_announce, access_keycard_auth, access_tcomsat,
-		access_solgov_crew, access_aquila, access_seneng, access_hangar, access_torch_fax, access_torch_helm, access_radio_comm,
+		access_solgov_crew, access_aquila, access_seneng, access_hangar, access_hades_fax, access_hades_helm, access_radio_comm,
 		access_radio_eng
 		)
 
@@ -242,7 +242,7 @@
 		access_ai_upload, access_teleporter, access_eva, access_bridge, access_heads,
 		access_tech_storage, access_atmospherics, access_janitor, access_construction,
 		access_network, access_ce, access_RC_announce, access_keycard_auth, access_tcomsat,
-		access_solgov_crew, access_seneng, access_hangar, access_robotics, access_torch_fax, access_torch_helm, access_radio_comm,
+		access_solgov_crew, access_seneng, access_hangar, access_robotics, access_hades_fax, access_hades_helm, access_radio_comm,
 		access_radio_eng
 	)
 
@@ -267,10 +267,10 @@
 	minimal_player_age = 14
 	minimum_character_age = list(SPECIES_HUMAN = 25)
 	ideal_character_age = 35
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/cos
+	outfit_type = /decl/hierarchy/outfit/job/hades/crew/command/cos
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
-		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/command/cos/fleet
+		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/hades/crew/command/cos/fleet
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/ec/o3,
@@ -293,7 +293,7 @@
 		access_maint_tunnels, access_external_airlocks, access_emergency_storage,
 		access_teleporter, access_eva, access_bridge, access_heads, access_aquila,
 		access_hos, access_RC_announce, access_keycard_auth, access_sec_doors,
-		access_solgov_crew, access_gun, access_emergency_armory, access_hangar, access_torch_fax,
+		access_solgov_crew, access_gun, access_emergency_armory, access_hangar, access_hades_fax,
 		access_radio_comm, access_radio_sec
 	)
 
@@ -317,7 +317,7 @@
 	selection_color = "#2f2f7f"
 	economic_power = 16
 	minimal_player_age = 0
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/representative
+	outfit_type = /decl/hierarchy/outfit/job/hades/crew/representative
 	allowed_branches = list(/datum/mil_branch/solgov)
 	allowed_ranks = list(/datum/mil_rank/sol/gov)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_EXPERT,
@@ -328,7 +328,7 @@
 	access = list(
 		access_representative, access_security, access_medical,
 		access_bridge, access_cargo, access_solgov_crew,
-		access_hangar, access_torch_fax, access_radio_comm
+		access_hangar, access_hades_fax, access_radio_comm
 	)
 
 	software_on_spawn = list(/datum/computer_file/program/reports)
@@ -348,7 +348,7 @@
 	economic_power = 11
 	minimum_character_age = list(SPECIES_HUMAN = 35)
 	ideal_character_age = 45
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/sea/fleet
+	outfit_type = /decl/hierarchy/outfit/job/hades/crew/command/sea/fleet
 	allowed_branches = list(
 		/datum/mil_branch/fleet
 	)
@@ -375,7 +375,7 @@
 		access_security, access_medical, access_engine, access_maint_tunnels, access_external_airlocks, access_emergency_storage,
 		access_teleporter, access_eva, access_bridge, access_all_personal_lockers, access_janitor,
 		access_kitchen, access_cargo, access_RC_announce, access_keycard_auth, access_aquila, access_guppy_helm,
-		access_solgov_crew, access_gun, access_expedition_shuttle, access_guppy, access_senadv, access_hangar, access_torch_fax,
+		access_solgov_crew, access_gun, access_expedition_shuttle, access_guppy, access_senadv, access_hangar, access_hades_fax,
 		access_radio_comm, access_radio_eng, access_radio_med, access_radio_sec, access_radio_serv, access_radio_sup, access_radio_exp
 		)
 
@@ -397,10 +397,10 @@
 	economic_power = 8
 	minimum_character_age = list(SPECIES_HUMAN = 22)
 	ideal_character_age = 24
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/bridgeofficer
+	outfit_type = /decl/hierarchy/outfit/job/hades/crew/command/bridgeofficer
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
-		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/command/bridgeofficer/fleet
+		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/hades/crew/command/bridgeofficer/fleet
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/ec/o1,
@@ -418,7 +418,7 @@
 		access_bridge, access_janitor, access_kitchen, access_cargo, access_mailsorting, access_RC_announce, access_keycard_auth,
 		access_solgov_crew, access_aquila, access_aquila_helm, access_guppy, access_guppy_helm, access_external_airlocks,
 		access_eva, access_hangar, access_cent_creed, access_explorer, access_expedition_shuttle, access_expedition_shuttle_helm, access_teleporter,
-		access_torch_fax, access_torch_helm, access_radio_comm, access_radio_eng, access_radio_exp, access_radio_serv, access_radio_sci, access_radio_sup
+		access_hades_fax, access_hades_helm, access_radio_comm, access_radio_eng, access_radio_exp, access_radio_serv, access_radio_sci, access_radio_sup
 	)
 
 	software_on_spawn = list(/datum/computer_file/program/comm,
@@ -432,4 +432,4 @@
 							 /datum/computer_file/program/deck_management)
 
 /datum/job/bridgeofficer/get_description_blurb()
-	return "You are a Bridge Officer. You are a very junior officer. You do not give orders of your own. You are subordinate to all of command. You handle matters on the bridge and report directly to the CO and XO. You take the Torch's helm and pilot the Aquila if needed. You monitor bridge computer programs and communications and report relevant information to command."
+	return "You are a Bridge Officer. You are a very junior officer. You do not give orders of your own. You are subordinate to all of command. You handle matters on the bridge and report directly to the CO and XO. You take the Hades's helm and pilot the Aquila if needed. You monitor bridge computer programs and communications and report relevant information to command."

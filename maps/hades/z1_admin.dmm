@@ -493,7 +493,7 @@
 	id_tag = "escape_pod_1_recovery";
 	pixel_x = 25;
 	pixel_y = 30;
-	req_access = list(list("ACCESS_EXTERNAL","ACCESS_TORCH_CREW"));
+	req_access = list(list("ACCESS_EXTERNAL","ACCESS_HADES_CREW"));
 	tag_door = "escape_pod_1_recovery_hatch"
 	},
 /turf/unsimulated/floor{
@@ -546,7 +546,7 @@
 	id_tag = "escape_pod_2_recovery";
 	pixel_x = -25;
 	pixel_y = 30;
-	req_access = list(list("ACCESS_EXTERNAL","ACCESS_TORCH_CREW"));
+	req_access = list(list("ACCESS_EXTERNAL","ACCESS_HADES_CREW"));
 	tag_door = "escape_pod_2_recovery_hatch"
 	},
 /turf/unsimulated/floor{
@@ -954,7 +954,7 @@
 	id_tag = "escape_pod_5_recovery";
 	pixel_x = -25;
 	pixel_y = 25;
-	req_access = list(list("ACCESS_EXTERNAL","ACCESS_TORCH_CREW"));
+	req_access = list(list("ACCESS_EXTERNAL","ACCESS_HADES_CREW"));
 	tag_door = "escape_pod_5_recovery_hatch"
 	},
 /turf/unsimulated/floor{
@@ -977,7 +977,7 @@
 	id_tag = "escape_pod_3_recovery";
 	pixel_x = 25;
 	pixel_y = -25;
-	req_access = list(list("ACCESS_EXTERNAL","ACCESS_TORCH_CREW"));
+	req_access = list(list("ACCESS_EXTERNAL","ACCESS_HADES_CREW"));
 	tag_door = "escape_pod_3_recovery_hatch"
 	},
 /turf/unsimulated/floor{

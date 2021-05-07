@@ -151,7 +151,7 @@
 /turf/space,
 /area/space)
 "yk" = (
-/obj/effect/shuttle_landmark/transit/torch/aquila,
+/obj/effect/shuttle_landmark/transit/hades/aquila,
 /turf/space/transit/north,
 /area/space)
 "yK" = (
@@ -164,7 +164,7 @@
 	},
 /area/space)
 "zC" = (
-/obj/effect/shuttle_landmark/transit/torch/exploration_shuttle,
+/obj/effect/shuttle_landmark/transit/hades/exploration_shuttle,
 /turf/space/transit/north,
 /area/space)
 "zK" = (
@@ -320,7 +320,7 @@
 /turf/space,
 /area/space)
 "VK" = (
-/obj/effect/shuttle_landmark/transit/torch/guppy,
+/obj/effect/shuttle_landmark/transit/hades/guppy,
 /turf/space/transit/north,
 /area/space)
 "VO" = (

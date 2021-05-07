@@ -1,4 +1,4 @@
-/obj/machinery/keycard_auth/torch/interact(mob/user)
+/obj/machinery/keycard_auth/hades/interact(mob/user)
 	user.set_machine(src)
 
 	var/list/dat = list()
@@ -36,7 +36,7 @@
 	popup.open()
 	return
 
-/obj/machinery/keycard_auth/torch/trigger_event()	
+/obj/machinery/keycard_auth/hades/trigger_event()	
 	switch(event)
 		if("Red alert")
 			var/decl/security_state/security_state = decls_repository.get_decl(GLOB.using_map.security_state)

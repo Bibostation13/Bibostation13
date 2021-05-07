@@ -1,9 +1,9 @@
-/datum/map/torch
-	name = "\improper Torch"
-	full_name = "\improper SEV Torch"
-	path = "torch"
+/datum/map/hades
+	name = "\improper Hades"
+	full_name = "\improper SEV Hades"
+	path = "hades"
 	flags = MAP_HAS_BRANCH | MAP_HAS_RANK
-	config_path = "config/torch_config.txt"
+	config_path = "config/hades_config.txt"
 
 	admin_levels  = list(7)
 	escape_levels = list(8)
@@ -11,13 +11,13 @@
 	accessible_z_levels = list("1"=1,"2"=3,"3"=1,"4"=1,"5"=1,"6"=1,"9"=30)
 	overmap_size = 35
 	overmap_event_areas = 34
-	usable_email_tlds = list("torch.ec.scg", "torch.fleet.mil", "freemail.net", "torch.scg")
+	usable_email_tlds = list("hades.ec.scg", "hades.fleet.mil", "freemail.net", "hades.scg")
 
 	allowed_spawns = list("Cryogenic Storage", "Cyborg Storage")
 	default_spawn = "Cryogenic Storage"
 
-	station_name  = "\improper SEV Torch"
-	station_short = "\improper Torch"
+	station_name  = "\improper SEV Hades"
+	station_short = "\improper Hades"
 	dock_name     = "TBD"
 	boss_name     = "Expeditionary Command"
 	boss_short    = "Command"
@@ -53,4 +53,4 @@
 	away_site_budget = 3
 	min_offmap_players = 12
 
-	id_hud_icons = 'maps/torch/icons/assignment_hud.dmi'
+	id_hud_icons = 'maps/hades/icons/assignment_hud.dmi'

@@ -1,23 +1,23 @@
-/decl/closet_appearance/secure_closet/torch/sol
+/decl/closet_appearance/secure_closet/hades/sol
 	color = COLOR_BABY_BLUE
 	extra_decals = list(
 		"stripe_vertical_mid_full" =  COLOR_OFF_WHITE
 	)
 
-/decl/closet_appearance/secure_closet/torch/sol/rep
+/decl/closet_appearance/secure_closet/hades/sol/rep
 	color = COLOR_BABY_BLUE
 	extra_decals = list(
 		"stripe_vertical_left_full" =  COLOR_OFF_WHITE,
 		"stripe_vertical_right_full" =  COLOR_OFF_WHITE
 	)
 
-/decl/closet_appearance/secure_closet/torch/corporate
+/decl/closet_appearance/secure_closet/hades/corporate
 	color = COLOR_BOTTLE_GREEN
 	extra_decals = list(
 		"stripe_vertical_mid_full" = COLOR_OFF_WHITE
 	)
 
-/decl/closet_appearance/secure_closet/torch/corporate/liaison
+/decl/closet_appearance/secure_closet/hades/corporate/liaison
 	extra_decals = list(
 		"stripe_vertical_left_full" =  COLOR_OFF_WHITE,
 		"stripe_vertical_right_full" = COLOR_OFF_WHITE,
@@ -27,7 +27,7 @@
 /obj/structure/closet/secure_closet/liaison
 	name = "\improper corporate liaison's locker"
 	req_access = list(access_liaison)
-	closet_appearance = /decl/closet_appearance/secure_closet/torch/corporate/liaison
+	closet_appearance = /decl/closet_appearance/secure_closet/hades/corporate/liaison
 
 /obj/structure/closet/secure_closet/liaison/WillContain()
 	return list(
@@ -43,11 +43,11 @@
 		/obj/item/storage/belt/general,
 		new /datum/atom_creator/weighted(list(/obj/item/storage/backpack, /obj/item/storage/backpack/satchel)),
 		new /datum/atom_creator/simple(/obj/item/storage/backpack/messenger, 50),
-		/obj/item/device/radio/headset/heads/torchntcommand,
-		/obj/item/device/radio/headset/heads/torchntcommand/alt
+		/obj/item/device/radio/headset/heads/hadesntcommand,
+		/obj/item/device/radio/headset/heads/hadesntcommand/alt
 	)
 
-/decl/closet_appearance/secure_closet/torch/corporate/bodyguard
+/decl/closet_appearance/secure_closet/hades/corporate/bodyguard
 	extra_decals = list(
 		"stripe_vertical_left_full" =  COLOR_OFF_WHITE,
 		"stripe_vertical_right_full" = COLOR_OFF_WHITE,
@@ -57,7 +57,7 @@
 /obj/structure/closet/secure_closet/bodyguard
 	name = "\improper corporate protection locker"
 	req_access = list(access_sec_guard)
-	closet_appearance = /decl/closet_appearance/secure_closet/torch/corporate/bodyguard
+	closet_appearance = /decl/closet_appearance/secure_closet/hades/corporate/bodyguard
 
 /obj/structure/closet/secure_closet/bodyguard/WillContain()
 	return list(
@@ -71,8 +71,8 @@
 		/obj/item/clothing/gloves/color/black,
 		/obj/item/clothing/glasses/sunglasses/big,
 		/obj/item/clothing/accessory/badge/nanotrasen,
-		/obj/item/device/radio/headset/heads/torchcorp,
-		/obj/item/device/radio/headset/heads/torchcorp/alt,
+		/obj/item/device/radio/headset/heads/hadescorp,
+		/obj/item/device/radio/headset/heads/hadescorp/alt,
 		/obj/item/clothing/accessory/storage/black_vest,
 		/obj/item/storage/belt/holster/general,
 		/obj/item/device/flashlight/maglight,
@@ -83,7 +83,7 @@
 /obj/structure/closet/secure_closet/representative
 	name = "\improper Sol Central Government representative's locker"
 	req_access = list(access_representative)
-	closet_appearance = /decl/closet_appearance/secure_closet/torch/sol/rep
+	closet_appearance = /decl/closet_appearance/secure_closet/hades/sol/rep
 
 /obj/structure/closet/secure_closet/representative/WillContain()
 	return list(
@@ -108,7 +108,7 @@
 /obj/structure/closet/secure_closet/crew
 	name = "crew equipment locker"
 	req_access = list(access_solgov_crew)
-	closet_appearance = /decl/closet_appearance/secure_closet/torch/sol
+	closet_appearance = /decl/closet_appearance/secure_closet/hades/sol
 
 /obj/structure/closet/secure_closet/crew/WillContain()
 	return list(
@@ -121,7 +121,7 @@
 /obj/structure/closet/secure_closet/crew/research
 	name = "research equipment locker"
 	req_access = list(access_nanotrasen)
-	closet_appearance = /decl/closet_appearance/secure_closet/torch/corporate
+	closet_appearance = /decl/closet_appearance/secure_closet/hades/corporate
 
 
 /obj/structure/closet/secure_closet/guncabinet/sidearm

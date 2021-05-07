@@ -1,20 +1,20 @@
 /*
- * Torch Medical
+ * Hades Medical
  */
-/decl/closet_appearance/secure_closet/torch/medical
+/decl/closet_appearance/secure_closet/hades/medical
 	extra_decals = list(
 		"stripe_vertical_mid_full" = COLOR_BABY_BLUE,
 		"medical" = COLOR_BABY_BLUE
 	)
 
-/decl/closet_appearance/secure_closet/torch/medical/physician
+/decl/closet_appearance/secure_closet/hades/medical/physician
 	extra_decals = list(
 		"stripe_vertical_left_full" = COLOR_BABY_BLUE,
 		"stripe_vertical_right_full" = COLOR_BABY_BLUE,
 		"medical" = COLOR_BABY_BLUE
 	)
 
-/decl/closet_appearance/secure_closet/torch/medical/cmo
+/decl/closet_appearance/secure_closet/hades/medical/cmo
 	extra_decals = list(
 		"stripe_vertical_left_full" = COLOR_BABY_BLUE,
 		"stripe_vertical_mid_full" = COLOR_CLOSET_GOLD,
@@ -23,14 +23,14 @@
 	)
 
 /obj/structure/closet/secure_closet/counselor
-	closet_appearance = /decl/closet_appearance/secure_closet/torch/medical
+	closet_appearance = /decl/closet_appearance/secure_closet/hades/medical
 
-/obj/structure/closet/secure_closet/CMO_torch
+/obj/structure/closet/secure_closet/CMO_hades
 	name = "chief medical officer's locker"
 	req_access = list(access_cmo)
-	closet_appearance = /decl/closet_appearance/secure_closet/torch/medical/cmo
+	closet_appearance = /decl/closet_appearance/secure_closet/hades/medical/cmo
 
-/obj/structure/closet/secure_closet/CMO_torch/WillContain()
+/obj/structure/closet/secure_closet/CMO_hades/WillContain()
 	return list(
 		/obj/item/clothing/suit/bio_suit/cmo,
 		/obj/item/clothing/head/bio_hood/cmo,
@@ -60,12 +60,12 @@
 		RANDOM_SCRUBS
 	)
 
-/obj/structure/closet/secure_closet/medical_torchsenior
+/obj/structure/closet/secure_closet/medical_hadessenior
 	name = "physician's locker"
 	req_access = list(access_senmed)
-	closet_appearance = /decl/closet_appearance/secure_closet/torch/medical/physician
+	closet_appearance = /decl/closet_appearance/secure_closet/hades/medical/physician
 
-/obj/structure/closet/secure_closet/medical_torchsenior/WillContain()
+/obj/structure/closet/secure_closet/medical_hadessenior/WillContain()
 	return list(
 		/obj/item/clothing/under/sterile,
 		/obj/item/clothing/suit/storage/toggle/labcoat,
@@ -88,12 +88,12 @@
 		RANDOM_SCRUBS = 2
 	)
 
-/obj/structure/closet/secure_closet/medical_torch
+/obj/structure/closet/secure_closet/medical_hades
 	name = "medical technician's locker"
 	req_access = list(access_medical_equip)
-	closet_appearance = /decl/closet_appearance/secure_closet/torch/medical
+	closet_appearance = /decl/closet_appearance/secure_closet/hades/medical
 
-/obj/structure/closet/secure_closet/medical_torch/WillContain()
+/obj/structure/closet/secure_closet/medical_hades/WillContain()
 	return list(
 		/obj/item/clothing/under/sterile,
 		/obj/item/clothing/accessory/storage/white_vest,
@@ -116,11 +116,11 @@
 		new /datum/atom_creator/weighted(list(/obj/item/storage/backpack/dufflebag/med, /obj/item/storage/backpack/messenger/med))
 	)
 
-/obj/structure/closet/wardrobe/medic_torch
+/obj/structure/closet/wardrobe/medic_hades
 	name = "medical wardrobe"
 	closet_appearance = /decl/closet_appearance/wardrobe/white
 
-/obj/structure/closet/wardrobe/medic_torch/WillContain()
+/obj/structure/closet/wardrobe/medic_hades/WillContain()
 	return list(
 		/obj/item/clothing/under/sterile = 2,
 		RANDOM_SCRUBS = 4,

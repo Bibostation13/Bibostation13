@@ -1,7 +1,7 @@
 /obj/item/gun/projectile/shotgun/pump/exploration
 	name = "ballistic launcher"
 	desc = "As the user's handbook will tell you, the Xynergy XP-3 is /not/ a shotgun, it just launches payloads of same caliber at high speed towards targets. Nicknamed 'Boomstick' for the way it behaves when full-power ammunition is loaded."
-	icon = 'maps/torch/icons/obj/explshotgun.dmi'
+	icon = 'maps/hades/icons/obj/explshotgun.dmi'
 	icon_state = "expshotgun0"
 	starts_loaded = 0
 	req_access = list(access_hop)

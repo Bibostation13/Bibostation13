@@ -1,7 +1,7 @@
 /obj/item/clothing/accessory/solgov
 	name = "master solgov accessory"
-	icon = 'maps/torch/icons/obj/obj_accessories_solgov.dmi'
-	accessory_icons = list(slot_w_uniform_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi', slot_wear_suit_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi')
+	icon = 'maps/hades/icons/obj/obj_accessories_solgov.dmi'
+	accessory_icons = list(slot_w_uniform_str = 'maps/hades/icons/mob/onmob_accessories_solgov.dmi', slot_wear_suit_str = 'maps/hades/icons/mob/onmob_accessories_solgov.dmi')
 	w_class = ITEM_SIZE_TINY
 
 /*****
@@ -10,8 +10,8 @@ medals
 /obj/item/clothing/accessory/medal/solgov
 	name = "master solgov medal"
 	desc = "You shouldn't be seeing this."
-	icon = 'maps/torch/icons/obj/obj_accessories_solgov.dmi'
-	accessory_icons = list(slot_w_uniform_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi', slot_wear_suit_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi')
+	icon = 'maps/hades/icons/obj/obj_accessories_solgov.dmi'
+	accessory_icons = list(slot_w_uniform_str = 'maps/hades/icons/mob/onmob_accessories_solgov.dmi', slot_wear_suit_str = 'maps/hades/icons/mob/onmob_accessories_solgov.dmi')
 
 /obj/item/clothing/accessory/medal/solgov/iron/star
 	name = "iron star medal"
@@ -74,10 +74,10 @@ medals
 /obj/item/clothing/accessory/solgov/get_codex_value()
 	return check_codex_val || ..()
 
-/obj/item/clothing/accessory/solgov/torch_patch
-	name = "\improper Torch mission patch"
-	desc = "A fire resistant shoulder patch, worn by the personnel involved in the Torch Project."
-	icon_state = "torchpatch"
+/obj/item/clothing/accessory/solgov/hades_patch
+	name = "\improper hades mission patch"
+	desc = "A fire resistant shoulder patch, worn by the personnel involved in the Hades Project."
+	icon_state = "hadespatch"
 	on_rolled = list("down" = "none")
 	slot = ACCESSORY_SLOT_INSIGNIA
 	sprite_sheets = list(
@@ -166,8 +166,8 @@ ribbons
 	icon_state = "ribbon_marksman"
 	on_rolled = list("down" = "none")
 	slot = ACCESSORY_SLOT_MEDAL
-	icon = 'maps/torch/icons/obj/obj_accessories_solgov.dmi'
-	accessory_icons = list(slot_w_uniform_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi', slot_wear_suit_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi')
+	icon = 'maps/hades/icons/obj/obj_accessories_solgov.dmi'
+	accessory_icons = list(slot_w_uniform_str = 'maps/hades/icons/mob/onmob_accessories_solgov.dmi', slot_wear_suit_str = 'maps/hades/icons/mob/onmob_accessories_solgov.dmi')
 	w_class = ITEM_SIZE_TINY
 
 /obj/item/clothing/accessory/ribbon/solgov/marksman
@@ -253,8 +253,8 @@ badges
 *****/
 /obj/item/clothing/accessory/badge/solgov
 	name = "master solgov badge"
-	icon = 'maps/torch/icons/obj/obj_accessories_solgov.dmi'
-	accessory_icons = list(slot_w_uniform_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi', slot_wear_suit_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi')
+	icon = 'maps/hades/icons/obj/obj_accessories_solgov.dmi'
+	accessory_icons = list(slot_w_uniform_str = 'maps/hades/icons/mob/onmob_accessories_solgov.dmi', slot_wear_suit_str = 'maps/hades/icons/mob/onmob_accessories_solgov.dmi')
 
 /obj/item/clothing/accessory/badge/solgov/security
 	name = "security forces badge"
@@ -300,8 +300,8 @@ armbands
 *******/
 /obj/item/clothing/accessory/armband/solgov
 	name = "master solgov armband"
-	icon = 'maps/torch/icons/obj/obj_accessories_solgov.dmi'
-	accessory_icons = list(slot_w_uniform_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi', slot_wear_suit_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi')
+	icon = 'maps/hades/icons/obj/obj_accessories_solgov.dmi'
+	accessory_icons = list(slot_w_uniform_str = 'maps/hades/icons/mob/onmob_accessories_solgov.dmi', slot_wear_suit_str = 'maps/hades/icons/mob/onmob_accessories_solgov.dmi')
 	sprite_sheets = list(
 		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_accessories_sol_unathi.dmi'
 		)
@@ -327,9 +327,9 @@ armour attachments
 /obj/item/clothing/accessory/armor/tag/solgov
 	name = "\improper SCG Flag"
 	desc = "An emblem depicting the Sol Central Government's flag."
-	icon_override = 'maps/torch/icons/obj/obj_accessories_solgov.dmi'
-	icon = 'maps/torch/icons/obj/obj_accessories_solgov.dmi'
-	accessory_icons = list(slot_w_uniform_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi', slot_wear_suit_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi')
+	icon_override = 'maps/hades/icons/obj/obj_accessories_solgov.dmi'
+	icon = 'maps/hades/icons/obj/obj_accessories_solgov.dmi'
+	accessory_icons = list(slot_w_uniform_str = 'maps/hades/icons/mob/onmob_accessories_solgov.dmi', slot_wear_suit_str = 'maps/hades/icons/mob/onmob_accessories_solgov.dmi')
 	icon_state = "solflag"
 	slot = ACCESSORY_SLOT_ARMOR_M
 

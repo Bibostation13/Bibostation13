@@ -1,34 +1,34 @@
 #if !defined(using_map_DATUM)
 
-	#include "torch_announcements.dm"
-	#include "torch_antagonism.dm"
-	#include "torch_areas.dm"
-	#include "torch_elevator.dm"
-	#include "torch_events.dm"
-	#include "torch_holodecks.dm"
-	#include "torch_lobby.dm"
-	#include "torch_machinery.dm"
-	#include "torch_map_templates.dm"
-	#include "torch_npcs.dm"
-	#include "torch_overmap.dm"
-	#include "torch_presets.dm"
-	#include "torch_procs.dm"
-	#include "torch_ranks.dm"
-	#include "torch_security_state.dm"
-	#include "torch_setup.dm"
-	#include "torch_shuttles.dm"
-	#include "torch_submaps.dm"
-	#include "torch_turfs.dm"
-	#include "torch_unit_testing.dm"
+	#include "hades_announcements.dm"
+	#include "hades_antagonism.dm"
+	#include "hades_areas.dm"
+	#include "hades_elevator.dm"
+	#include "hades_events.dm"
+	#include "hades_holodecks.dm"
+	#include "hades_lobby.dm"
+	#include "hades_machinery.dm"
+	#include "hades_map_templates.dm"
+	#include "hades_npcs.dm"
+	#include "hades_overmap.dm"
+	#include "hades_presets.dm"
+	#include "hades_procs.dm"
+	#include "hades_ranks.dm"
+	#include "hades_security_state.dm"
+	#include "hades_setup.dm"
+	#include "hades_shuttles.dm"
+	#include "hades_submaps.dm"
+	#include "hades_turfs.dm"
+	#include "hades_unit_testing.dm"
 
 	#include "datums/uniforms.dm"
 	#include "datums/uniforms_expedition.dm"
 	#include "datums/uniforms_fleet.dm"
-	#include "datums/game_modes/torch_traitor.dm"
-	#include "datums/game_modes/torch_revolution.dm"
-	#include "datums/game_modes/torch_siege.dm"
-	#include "datums/game_modes/torch_meteor.dm"
-	#include "datums/game_modes/torch_uprising.dm"
+	#include "datums/game_modes/hades_traitor.dm"
+	#include "datums/game_modes/hades_revolution.dm"
+	#include "datums/game_modes/hades_siege.dm"
+	#include "datums/game_modes/hades_meteor.dm"
+	#include "datums/game_modes/hades_uprising.dm"
 	#include "datums/reports/command.dm"
 	#include "datums/reports/corporate.dm"
 	#include "datums/reports/exploration.dm"
@@ -80,8 +80,8 @@
 
 	#include "items/weapon/storage/wallets.dm"
 
-	#include "job/torch_access.dm"
-	#include "job/torch_jobs.dm"
+	#include "job/hades_access.dm"
+	#include "job/hades_jobs.dm"
 	#include "job/command_jobs.dm"
 	#include "job/corporate_jobs.dm"
 	#include "job/engineering_jobs.dm"
@@ -93,7 +93,7 @@
 	#include "job/service_jobs.dm"
 	#include "job/supply_jobs.dm"
 
-	#include "job/outfits/torch_outfits.dm"
+	#include "job/outfits/hades_outfits.dm"
 	#include "job/outfits/command_outfits.dm"
 	#include "job/outfits/corporate_outfits.dm"
 	#include "job/outfits/engineering_outfits.dm"
@@ -141,12 +141,12 @@
 	#include "loadout/loadout_xeno.dm"
 	#include "loadout/~defines.dm"
 
-	#include "torch1_deck5.dmm"
-	#include "torch2_deck4.dmm"
-	#include "torch3_deck3.dmm"
-	#include "torch4_deck2.dmm"
-	#include "torch5_deck1.dmm"
-	#include "torch6_bridge.dmm"
+	#include "hades1_deck5.dmm"
+	#include "hades2_deck4.dmm"
+	#include "hades3_deck3.dmm"
+	#include "hades4_deck2.dmm"
+	#include "hades5_deck1.dmm"
+	#include "hades6_bridge.dmm"
 	#include "z1_admin.dmm"
 	#include "z2_transit.dmm"
 
@@ -172,11 +172,11 @@
 	#include "../away/scavver/scavver_gantry.dm"
 	#include "../away/verne/verne.dm"
 
-	#define using_map_DATUM /datum/map/torch
+	#define using_map_DATUM /datum/map/hades
 
 #elif !defined(MAP_OVERRIDE)
 
-	#warn A map has already been included, ignoring Torch
+	#warn A map has already been included, ignoring Hades
 
 #endif
 

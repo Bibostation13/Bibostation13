@@ -1,10 +1,10 @@
 
 /**
-* Torch fax machine overrides. Cleaner than map stuff.
+* Hades fax machine overrides. Cleaner than map stuff.
 **/
 
 /obj/machinery/photocopier/faxmachine
   send_access = list()
 
-/obj/machinery/photocopier/faxmachine/torch
-	send_access = list(access_torch_fax)
+/obj/machinery/photocopier/faxmachine/hades
+	send_access = list(access_hades_fax)

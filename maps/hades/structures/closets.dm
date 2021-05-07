@@ -1,5 +1,5 @@
 /*
- * Torch Excavation
+ * Hades Excavation
  */
 
 /obj/structure/closet/toolcloset/excavation
@@ -39,15 +39,15 @@
 		/obj/item/clothing/shoes/white = 2,
 		/obj/item/clothing/shoes/black = 2)
 
-/obj/random/torchcloset //Random closets taking into account torch-specific ones
+/obj/random/hadescloset //Random closets taking into account hades-specific ones
 	name = "random closet"
 	desc = "This is a random closet."
 
-/obj/random/torchcloset/spawn_choices()
+/obj/random/hadescloset/spawn_choices()
 	return list(/obj/structure/closet,
 				/obj/structure/closet/firecloset,
 				/obj/structure/closet/emcloset,
-				/obj/structure/closet/jcloset_torch,
+				/obj/structure/closet/jcloset_hades,
 				/obj/structure/closet/athletic_mixed,
 				/obj/structure/closet/toolcloset,
 				/obj/structure/closet/toolcloset/excavation,

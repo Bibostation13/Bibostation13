@@ -1,16 +1,16 @@
-/obj/turbolift_map_holder/torch
-	name = "Torch turbolift map placeholder"
+/obj/turbolift_map_holder/hades
+	name = "Hades turbolift map placeholder"
 	depth = 6
 	lift_size_x = 4
 	lift_size_y = 4
 
 	areas_to_use = list(
-		/area/turbolift/torch_ground,
-		/area/turbolift/torch_first,
-		/area/turbolift/torch_second,
-		/area/turbolift/torch_third,
-		/area/turbolift/torch_fourth,
-		/area/turbolift/torch_top
+		/area/turbolift/hades_ground,
+		/area/turbolift/hades_first,
+		/area/turbolift/hades_second,
+		/area/turbolift/hades_third,
+		/area/turbolift/hades_fourth,
+		/area/turbolift/hades_top
 		)
 
 

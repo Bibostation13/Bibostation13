@@ -1,6 +1,6 @@
 //Some helpers because so much copypasta for pods
-/datum/shuttle/autodock/ferry/escape_pod/torchpod
-	category = /datum/shuttle/autodock/ferry/escape_pod/torchpod
+/datum/shuttle/autodock/ferry/escape_pod/hadespod
+	category = /datum/shuttle/autodock/ferry/escape_pod/hadespod
 	sound_takeoff = 'sound/effects/rocket.ogg'
 	sound_landing = 'sound/effects/rocket_backwards.ogg'
 	warmup_time = 10
@@ -16,8 +16,8 @@
 	name = "Escaped"
 
 //Pods
-#define TORCH_ESCAPE_POD(NUMBER) \
-/datum/shuttle/autodock/ferry/escape_pod/torchpod/escape_pod##NUMBER { \
+#define HADES_ESCAPE_POD(NUMBER) \
+/datum/shuttle/autodock/ferry/escape_pod/hadespod/escape_pod##NUMBER { \
 	shuttle_area = /area/shuttle/escape_pod##NUMBER/station; \
 	name = "Escape Pod " + #NUMBER; \
 	dock_target = "escape_pod_" + #NUMBER; \
@@ -37,17 +37,17 @@
 	landmark_tag = "escape_pod_"+ #NUMBER +"_out"; \
 }
 
-TORCH_ESCAPE_POD(6)
-TORCH_ESCAPE_POD(7)
-TORCH_ESCAPE_POD(8)
-TORCH_ESCAPE_POD(9)
-TORCH_ESCAPE_POD(10)
-TORCH_ESCAPE_POD(11)
-TORCH_ESCAPE_POD(12)
-TORCH_ESCAPE_POD(13)
-TORCH_ESCAPE_POD(15)
-TORCH_ESCAPE_POD(16)
-TORCH_ESCAPE_POD(17)
+HADES_ESCAPE_POD(6)
+HADES_ESCAPE_POD(7)
+HADES_ESCAPE_POD(8)
+HADES_ESCAPE_POD(9)
+HADES_ESCAPE_POD(10)
+HADES_ESCAPE_POD(11)
+HADES_ESCAPE_POD(12)
+HADES_ESCAPE_POD(13)
+HADES_ESCAPE_POD(15)
+HADES_ESCAPE_POD(16)
+HADES_ESCAPE_POD(17)
 
 //Petrov
 
@@ -353,35 +353,35 @@ TORCH_ESCAPE_POD(17)
 	fuel_consumption = 4
 	logging_home_tag = "nav_hangar_calypso"
 	logging_access = access_expedition_shuttle_helm
-	ceiling_type = /turf/simulated/floor/shuttle_ceiling/torch
+	ceiling_type = /turf/simulated/floor/shuttle_ceiling/hades
 
-/obj/effect/shuttle_landmark/torch/hangar/exploration_shuttle
+/obj/effect/shuttle_landmark/hades/hangar/exploration_shuttle
 	name = "Charon Hangar"
 	landmark_tag = "nav_hangar_calypso"
 	base_area = /area/quartermaster/hangar
 	base_turf = /turf/simulated/floor/plating
 
-/obj/effect/shuttle_landmark/torch/deck1/exploration_shuttle
+/obj/effect/shuttle_landmark/hades/deck1/exploration_shuttle
 	name = "Space near Forth Deck"
 	landmark_tag = "nav_deck1_calypso"
 
-/obj/effect/shuttle_landmark/torch/deck2/exploration_shuttle
+/obj/effect/shuttle_landmark/hades/deck2/exploration_shuttle
 	name = "Space near Third Deck"
 	landmark_tag = "nav_deck2_calypso"
 
-/obj/effect/shuttle_landmark/torch/deck3/exploration_shuttle
+/obj/effect/shuttle_landmark/hades/deck3/exploration_shuttle
 	name = "Space near Second Deck"
 	landmark_tag = "nav_deck3_calypso"
 
-/obj/effect/shuttle_landmark/torch/deck4/exploration_shuttle
+/obj/effect/shuttle_landmark/hades/deck4/exploration_shuttle
 	name = "Space near First Deck"
 	landmark_tag = "nav_deck4_calypso"
 
-/obj/effect/shuttle_landmark/torch/deck5/exploration_shuttle
+/obj/effect/shuttle_landmark/hades/deck5/exploration_shuttle
 	name = "Space near Bridge"
 	landmark_tag = "nav_bridge_calypso"
 
-/obj/effect/shuttle_landmark/transit/torch/exploration_shuttle
+/obj/effect/shuttle_landmark/transit/hades/exploration_shuttle
 	name = "In transit"
 	landmark_tag = "nav_transit_calypso"
 
@@ -399,35 +399,35 @@ TORCH_ESCAPE_POD(17)
 	logging_home_tag = "nav_hangar_guppy"
 	logging_access = access_guppy_helm
 	skill_needed = SKILL_NONE
-	ceiling_type = /turf/simulated/floor/shuttle_ceiling/torch
+	ceiling_type = /turf/simulated/floor/shuttle_ceiling/hades
 
-/obj/effect/shuttle_landmark/torch/hangar/guppy
+/obj/effect/shuttle_landmark/hades/hangar/guppy
 	name = "Guppy Hangar"
 	landmark_tag = "nav_hangar_guppy"
 	base_area = /area/quartermaster/hangar
 	base_turf = /turf/simulated/floor/plating
 
-/obj/effect/shuttle_landmark/torch/deck1/guppy
+/obj/effect/shuttle_landmark/hades/deck1/guppy
 	name = "Space near Forth Deck"
 	landmark_tag = "nav_deck1_guppy"
 
-/obj/effect/shuttle_landmark/torch/deck2/guppy
+/obj/effect/shuttle_landmark/hades/deck2/guppy
 	name = "Space near Third Deck"
 	landmark_tag = "nav_deck2_guppy"
 
-/obj/effect/shuttle_landmark/torch/deck3/guppy
+/obj/effect/shuttle_landmark/hades/deck3/guppy
 	name = "Space near Second Deck"
 	landmark_tag = "nav_deck3_guppy"
 
-/obj/effect/shuttle_landmark/torch/deck4/guppy
+/obj/effect/shuttle_landmark/hades/deck4/guppy
 	name = "Space near First Deck"
 	landmark_tag = "nav_deck4_guppy"
 
-/obj/effect/shuttle_landmark/torch/deck5/guppy
+/obj/effect/shuttle_landmark/hades/deck5/guppy
 	name = "Space near Bridge"
 	landmark_tag = "nav_bridge_guppy"
 
-/obj/effect/shuttle_landmark/transit/torch/guppy
+/obj/effect/shuttle_landmark/transit/hades/guppy
 	name = "In transit"
 	landmark_tag = "nav_transit_guppy"
 
@@ -441,35 +441,35 @@ TORCH_ESCAPE_POD(17)
 	range = 2
 	logging_home_tag = "nav_hangar_aquila"
 	logging_access = access_aquila_helm
-	ceiling_type = /turf/simulated/floor/shuttle_ceiling/torch
+	ceiling_type = /turf/simulated/floor/shuttle_ceiling/hades
 
-/obj/effect/shuttle_landmark/torch/hangar/aquila
+/obj/effect/shuttle_landmark/hades/hangar/aquila
 	name = "Aquila Hangar"
 	landmark_tag = "nav_hangar_aquila"
 	docking_controller = "aquila_shuttle_dock_airlock"
 	base_turf = /turf/simulated/floor/reinforced/airless
 
-/obj/effect/shuttle_landmark/torch/deck1/aquila
+/obj/effect/shuttle_landmark/hades/deck1/aquila
 	name = "Space near Forth Deck"
 	landmark_tag = "nav_deck1_aquila"
 
-/obj/effect/shuttle_landmark/torch/deck2/aquila
+/obj/effect/shuttle_landmark/hades/deck2/aquila
 	name = "Space near Third Deck"
 	landmark_tag = "nav_deck2_aquila"
 
-/obj/effect/shuttle_landmark/torch/deck3/aquila
+/obj/effect/shuttle_landmark/hades/deck3/aquila
 	name = "Space near Second Deck"
 	landmark_tag = "nav_deck3_aquila"
 
-/obj/effect/shuttle_landmark/torch/deck4/aquila
+/obj/effect/shuttle_landmark/hades/deck4/aquila
 	name = "Space near First Deck"
 	landmark_tag = "nav_deck4_aquila"
 
-/obj/effect/shuttle_landmark/torch/deck5/aquila
+/obj/effect/shuttle_landmark/hades/deck5/aquila
 	name = "Space near Bridge"
 	landmark_tag = "nav_bridge_aquila"
 
-/obj/effect/shuttle_landmark/transit/torch/aquila
+/obj/effect/shuttle_landmark/transit/hades/aquila
 	name = "In transit"
 	landmark_tag = "nav_transit_aquila"
 

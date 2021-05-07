@@ -1,6 +1,6 @@
-/obj/effect/overmap/visitable/ship/torch
-	name = "SEV Torch"
-	desc = "A frankensteined HNS Mako-class corvette, broadcasting SCGEC codes and the designation \"SEV Torch, HSC-4-13-X\"."
+/obj/effect/overmap/visitable/ship/hades
+	name = "SEV Hades"
+	desc = "A frankensteined HNS Mako-class corvette, broadcasting SCGEC codes and the designation \"SEV Hades, HSC-4-13-X\"."
 	fore_dir = WEST
 	vessel_mass = 100000
 	burn_delay = 2 SECONDS
@@ -10,13 +10,13 @@
 		"Charon" = list("nav_hangar_calypso"), 	//can't have random shuttles popping inside the ship
 		"Guppy" = list("nav_hangar_guppy"),
 		"Aquila" = list("nav_hangar_aquila"),
-		"Ascent Caulship" = list("nav_ascent_caulship_torch"), //restricts caulship specific docking waypoint on deck 4 starboard side
+		"Ascent Caulship" = list("nav_ascent_caulship_hades"), //restricts caulship specific docking waypoint on deck 4 starboard side
 		"Skrellian Scout" = list("nav_skrellscout_dock"), //restricts Skrell Scoutship specific docking waypoint on deck 4 portside
 		"Skrellian Shuttle" = list("nav_skrellscoutsh_altdock"),
 		"Rescue" = list("nav_ert_dock"), //restricts ERT Shuttle specific docking waypoint on deck 4 portside
-		"ITV The Reclaimer" = list("nav_hangar_gantry_torch"), //gantry shuttles
-		"ITV Vulcan" = list("nav_hangar_gantry_torch_two"),
-		"ITV Spiritus" = list("nav_hangar_gantry_torch_three"),
+		"ITV The Reclaimer" = list("nav_hangar_gantry_hades"), //gantry shuttles
+		"ITV Vulcan" = list("nav_hangar_gantry_hades_two"),
+		"ITV Spiritus" = list("nav_hangar_gantry_hades_three"),
 		"SRV Venerable Catfish" = list("nav_verne_5"), //docking location for verne shuttle
 		"Cyclopes" = list("nav_merc_dock")
 	)
@@ -76,7 +76,7 @@
 
 /obj/effect/overmap/visitable/ship/landable/exploration_shuttle
 	name = "Charon"
-	desc = "An SSE-U11 long range shuttle, broadcasting SCGEC codes and the callsign \"Torch-2 Charon\"."
+	desc = "An SSE-U11 long range shuttle, broadcasting SCGEC codes and the callsign \"Hades-2 Charon\"."
 	shuttle = "Charon"
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 1 SECONDS
@@ -87,7 +87,7 @@
 
 /obj/effect/overmap/visitable/ship/landable/aquila
 	name = "Aquila"
-	desc = "A PM-24 modular transport, broadcasting SCGEC codes and the callsign \"Torch-1 Aquila\"."
+	desc = "A PM-24 modular transport, broadcasting SCGEC codes and the callsign \"Hades-1 Aquila\"."
 	shuttle = "Aquila"
 	vessel_mass = 10000
 	max_speed = 1/(1 SECONDS)
@@ -97,7 +97,7 @@
 
 /obj/effect/overmap/visitable/ship/landable/guppy
 	name = "Guppy"
-	desc = "An SSE-U3 utility pod, broadcasting SCGEC codes and the callsign \"Torch-3 Guppy\"."
+	desc = "An SSE-U3 utility pod, broadcasting SCGEC codes and the callsign \"Hades-3 Guppy\"."
 	shuttle = "Guppy"
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS
@@ -121,7 +121,7 @@
 	shuttle_tag = "Guppy"
 	req_access = list(access_guppy_helm)
 
-/obj/effect/overmap/visitable/ship/torch/Initialize()
+/obj/effect/overmap/visitable/ship/hades/Initialize()
 	. = ..()
 
 	var/obj/effect/overmap/visitable/sector/residue/R = new()

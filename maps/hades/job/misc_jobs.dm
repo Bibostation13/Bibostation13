@@ -31,18 +31,18 @@ Civilian
 	economic_power = 6
 	announced = FALSE
 	alt_titles = list(
-		"Journalist" = /decl/hierarchy/outfit/job/torch/passenger/passenger/journalist,
+		"Journalist" = /decl/hierarchy/outfit/job/hades/passenger/passenger/journalist,
 		"Historian",
 		"Botanist",
-		"Investor" = /decl/hierarchy/outfit/job/torch/passenger/passenger/investor,
-		"Psychologist" = /decl/hierarchy/outfit/job/torch/passenger/passenger/psychologist,
+		"Investor" = /decl/hierarchy/outfit/job/hades/passenger/passenger/investor,
+		"Psychologist" = /decl/hierarchy/outfit/job/hades/passenger/passenger/psychologist,
 		"Naturalist",
 		"Ecologist",
 		"Entertainer",
 		"Independent Observer",
 		"Sociologist",
 		"Trainer")
-	outfit_type = /decl/hierarchy/outfit/job/torch/passenger/passenger
+	outfit_type = /decl/hierarchy/outfit/job/hades/passenger/passenger
 	allowed_branches = list(/datum/mil_branch/civilian)
 	allowed_ranks = list(
 		/datum/mil_rank/civ/civ,
@@ -60,7 +60,7 @@ Civilian
 	ideal_character_age = 30
 	minimal_player_age = 0
 	create_record = 0
-	outfit_type = /decl/hierarchy/outfit/job/torch/merchant
+	outfit_type = /decl/hierarchy/outfit/job/hades/merchant
 	allowed_branches = list(
 		/datum/mil_branch/civilian,
 		/datum/mil_branch/alien

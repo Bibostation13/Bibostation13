@@ -1,19 +1,19 @@
 /*
- * Torch Service
+ * Hades Service
  */
-/decl/closet_appearance/secure_closet/torch/hydroponics
+/decl/closet_appearance/secure_closet/hades/hydroponics
 	extra_decals = list(
 		"stripe_vertical_right_partial" = COLOR_GREEN_GRAY,
 		"stripe_vertical_mid_partial" =   COLOR_GREEN_GRAY,
 		"hydro" = COLOR_GREEN_GRAY
 	)
 
-/obj/structure/closet/chefcloset_torch
+/obj/structure/closet/chefcloset_hades
 	name = "chef's closet"
 	desc = "It's a storage unit for foodservice equipment."
 	closet_appearance = /decl/closet_appearance/wardrobe/black
 
-/obj/structure/closet/chefcloset_torch/WillContain()
+/obj/structure/closet/chefcloset_hades/WillContain()
 	return list(
 		/obj/item/clothing/head/soft/mime,
 		/obj/item/device/radio/headset/headset_service,
@@ -23,12 +23,12 @@
 		/obj/item/clothing/suit/chef/classic
 	)
 
-/obj/structure/closet/secure_closet/hydroponics_torch //done so that it has no access reqs
+/obj/structure/closet/secure_closet/hydroponics_hades //done so that it has no access reqs
 	name = "hydroponics locker"
 	req_access = list()
-	closet_appearance = /decl/closet_appearance/secure_closet/torch/hydroponics
+	closet_appearance = /decl/closet_appearance/secure_closet/hades/hydroponics
 
-/obj/structure/closet/secure_closet/hydroponics_torch/WillContain()
+/obj/structure/closet/secure_closet/hydroponics_hades/WillContain()
 	return list(
 		/obj/item/clothing/head/soft/green,
 		/obj/item/storage/plants,
@@ -42,12 +42,12 @@
 		new /datum/atom_creator/simple(/obj/item/storage/backpack/messenger/hyd, 50)
 	)
 
-/obj/structure/closet/jcloset_torch
+/obj/structure/closet/jcloset_hades
 	name = "custodial closet"
 	desc = "It's a storage unit for janitorial equipment."
 	closet_appearance = /decl/closet_appearance/wardrobe/mixed
 
-/obj/structure/closet/jcloset_torch/WillContain()
+/obj/structure/closet/jcloset_hades/WillContain()
 	return list(
 		/obj/item/clothing/head/soft/purple,
 		/obj/item/device/radio/headset/headset_service,
@@ -63,12 +63,12 @@
 		/obj/item/clothing/glasses/hud/janitor
 	)
 
-/obj/structure/closet/secure_closet/bar_torch
+/obj/structure/closet/secure_closet/bar_hades
 	name = "bar locker"
 	desc = "It's a storage unit for bar equipment."
 	req_access = list(access_bar)
 
-/obj/structure/closet/secure_closet/bar_torch/WillContain()
+/obj/structure/closet/secure_closet/bar_hades/WillContain()
 	return list(
 		/obj/item/clothing/head/soft/black,
 		/obj/item/device/radio/headset/headset_service,

@@ -1,24 +1,24 @@
-/obj/item/device/encryptionkey/heads/torchexec
+/obj/item/device/encryptionkey/heads/hadesexec
 	name = "executive encryption key"
 	icon_state = "cap_cypherkey"
 	channels = list("Command" = 1, "Security" = 1, "Engineering" = 1, "Science" = 1, "Medical" = 1, "Supply" = 1, "Service" = 1, "Exploration" = 1, "Hailing" = 1)
 
-/obj/item/device/encryptionkey/headset_torchnt
+/obj/item/device/encryptionkey/headset_hadesnt
 	name = "corporate radio encryption key"
 	icon_state = "nt_cypherkey"
 	channels = list("Science" = 1, "Exploration" = 1)
 
-/obj/item/device/encryptionkey/headset_torchrd
+/obj/item/device/encryptionkey/headset_hadesrd
 	name = "chief science officer radio encryption key"
 	icon_state = "nt_cypherkey"
 	channels = list("Science" = 1, "Command" = 1, "Exploration" = 1, "Hailing" = 1)
 
-/obj/item/device/encryptionkey/headset_torchcorp
+/obj/item/device/encryptionkey/headset_hadescorp
 	name = "corporate radio encryption key"
 	icon_state = "nt_cypherkey"
 	channels = list("Service" = 1)
 
-/obj/item/device/encryptionkey/headset_torchcl
+/obj/item/device/encryptionkey/headset_hadescl
 	name = "corporate liaison radio encryption key"
 	icon_state = "nt_cypherkey"
 	channels = list("Service" = 1, "Command" = 1, "Hailing" = 1)

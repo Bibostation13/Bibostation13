@@ -5,7 +5,7 @@ Random item spawning
 /obj/random/solgov
 	name = "random solgov equipment"
 	desc = "This is a random piece of solgov equipment or clothing."
-	icon = 'maps/torch/icons/obj/obj_head_solgov.dmi'
+	icon = 'maps/hades/icons/obj/obj_head_solgov.dmi'
 	icon_state = "solsoft"
 
 /obj/random/solgov/spawn_choices()
@@ -42,7 +42,7 @@ Random item spawning
 				/obj/random/maintenance/clean = 800)
 
 /*******************
-Torch specific items
+Hades specific items
 *******************/
 
 /obj/item/modular_computer/pda/explorer
@@ -76,13 +76,13 @@ Unique items
 
 /obj/item/pen/multi/cmd/xo
 	name = "executive officer's pen"
-	icon = 'maps/torch/icons/obj/uniques.dmi'
+	icon = 'maps/hades/icons/obj/uniques.dmi'
 	icon_state = "pen_xo"
 	desc = "A slightly bulky pen with a silvery case. Twisting the top allows you to switch the nib for different colors."
 
 /obj/item/pen/multi/cmd/co
 	name = "commanding officer's pen"
-	icon = 'maps/torch/icons/obj/uniques.dmi'
+	icon = 'maps/hades/icons/obj/uniques.dmi'
 	icon_state = "pen_co"
 	desc = "A slightly bulky pen with a golden case. Twisting the top allows you to switch the nib for different colors."
 
@@ -102,9 +102,9 @@ Weapons
 
 /obj/item/gun/projectile/revolver/medium/captain
 	name = "\improper Final Argument"
-	icon = 'maps/torch/icons/obj/uniques.dmi'
+	icon = 'maps/hades/icons/obj/uniques.dmi'
 	icon_state = "mosley"
-	desc = "A shiny al-Maliki & Mosley Autococker automatic revolver, with black accents. Marketed as the 'Revolver for the Modern Era'. This one has 'To the Captain of SEV Torch' engraved."
+	desc = "A shiny al-Maliki & Mosley Autococker automatic revolver, with black accents. Marketed as the 'Revolver for the Modern Era'. This one has 'To the Captain of SEV Hades' engraved."
 	fire_delay = 5.7 //Autorevolver. Also synced with the animation
 	fire_anim = "mosley_fire"
 	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 2)

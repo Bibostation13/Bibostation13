@@ -1,7 +1,7 @@
-/datum/map/torch
+/datum/map/hades
 
 	base_floor_type = /turf/simulated/floor/reinforced/airless
-	base_floor_area = /area/torchexterior
+	base_floor_area = /area/hadesexterior
 
 	post_round_safe_areas = list (
 		/area/centcom,
@@ -290,7 +290,7 @@
 	icon_state = "shuttle"
 	name = "\improper Transport Shuttle Centcom"
 
-//torch large pods
+//hades large pods
 /area/shuttle/escape_pod6/station
 	name = "Escape Pod One"
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED | AREA_FLAG_IS_NOT_PERSISTENT
@@ -315,7 +315,7 @@
 	name = "Escape Pod Six"
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED | AREA_FLAG_IS_NOT_PERSISTENT
 
-//torch small pods
+//hades small pods
 /area/shuttle/escape_pod12/station
 	name = "Escape Pod Seven"
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED | AREA_FLAG_IS_NOT_PERSISTENT
@@ -551,37 +551,37 @@
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
 // Elevator areas.
-/area/turbolift/torch_top
+/area/turbolift/hades_top
 	name = "lift (bridge)"
 	lift_floor_label = "Bridge"
 	lift_floor_name = "Bridge"
 	lift_announce_str = "Arriving at Command Deck: Bridge. Meeting Room. Command Offices. Auxiliary Hangar. Auxiliary EVA."
 
-/area/turbolift/torch_fourth
+/area/turbolift/hades_fourth
 	name = "lift (first deck)"
 	lift_floor_label = "Deck 1"
 	lift_floor_name = "Operations Deck"
 	lift_announce_str = "Arriving at Operations Deck: Infirmary. Security Wing. Research Wing. Auxiliary Cryogenic Storage. Emergency Armory."
 
-/area/turbolift/torch_third
+/area/turbolift/hades_third
 	name = "lift (second deck)"
 	lift_floor_label = "Deck 2"
 	lift_floor_name = "Maintenance Deck"
 	lift_announce_str = "Arriving at Maintenance Deck: Engineering. Atmospherics. Storage."
 
-/area/turbolift/torch_second
+/area/turbolift/hades_second
 	name = "lift (third deck)"
 	lift_floor_label = "Deck 3"
 	lift_floor_name = "Habitation Deck"
 	lift_announce_str = "Arriving at Habitation Deck: Telecommunications. Mess Hall. Officer's Mess. Lounge. Observation. Hydroponics. Cryogenic Storage. Holodeck. Gym."
 
-/area/turbolift/torch_first
+/area/turbolift/hades_first
 	name = "lift (fourth deck)"
 	lift_floor_label = "Deck 4"
 	lift_floor_name = "Supply Deck"
 	lift_announce_str = "Arriving at Supply Deck: EVA. Docking Ports. Pathfinder's Office. Cargo Storage. Supply Office. Laundry. Sanitation."
 
-/area/turbolift/torch_ground
+/area/turbolift/hades_ground
 	name = "lift (fifth deck)"
 	lift_floor_label = "Deck 5"
 	lift_floor_name = "Hangar Deck"
@@ -1226,7 +1226,7 @@
 // Command
 
 /area/bridge
-	name = "\improper SEV Torch Bridge"
+	name = "\improper SEV Hades Bridge"
 	icon_state = "bridge"
 	req_access = list(access_bridge)
 
@@ -1265,7 +1265,7 @@
 	sound_env = SMALL_ENCLOSED
 	req_access = list(access_engine_equip)
 
-/area/torchexterior
+/area/hadesexterior
 	name = "\improper Exterior Reinforcements"
 	icon_state = "maint_exterior"
 	area_flags = AREA_FLAG_EXTERNAL

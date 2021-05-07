@@ -1,59 +1,59 @@
-/obj/item/device/radio/headset/torchnanotrasen
+/obj/item/device/radio/headset/hadesnanotrasen
 	name = "research headset"
 	desc = "A headset for researchers."
 	icon_state = "sci_headset"
 	item_state = "headset"
-	ks1type = /obj/item/device/encryptionkey/headset_torchnt
+	ks1type = /obj/item/device/encryptionkey/headset_hadesnt
 
-/obj/item/device/radio/headset/heads/torchexec
+/obj/item/device/radio/headset/heads/hadesexec
 	name = "executive headset"
-	desc = "The headset of those brave men and women who command the Torch."
+	desc = "The headset of those brave men and women who command the Hades."
 	icon_state = "com_headset"
 	item_state = "headset"
-	ks1type = /obj/item/device/encryptionkey/heads/torchexec
+	ks1type = /obj/item/device/encryptionkey/heads/hadesexec
 
-/obj/item/device/radio/headset/heads/torchexec/alt
+/obj/item/device/radio/headset/heads/hadesexec/alt
 	name = "executive bowman headset"
 	icon_state = "com_headset_alt"
 	item_state = "com_headset_alt"
 
-/obj/item/device/radio/headset/heads/torchcorp
+/obj/item/device/radio/headset/heads/hadescorp
 	name = "corporate headset"
 	desc = "Headset of the servants to the corporate overlords."
 	icon_state = "nt_headset"
 	item_state = "headset"
-	ks1type = /obj/item/device/encryptionkey/headset_torchcorp
+	ks1type = /obj/item/device/encryptionkey/headset_hadescorp
 
-/obj/item/device/radio/headset/heads/torchcorp/alt
+/obj/item/device/radio/headset/heads/hadescorp/alt
 	name = "corporate bowman headset"
 	icon_state = "nt_headset_alt"
 	item_state = "nt_headset_alt"
 
-/obj/item/device/radio/headset/heads/torchntcommand
+/obj/item/device/radio/headset/heads/hadesntcommand
 	name = "corporate command headset"
 	desc = "Headset of the corporate overlords."
 	icon_state = "nt_headset"
 	item_state = "headset"
-	ks1type = /obj/item/device/encryptionkey/headset_torchcl
+	ks1type = /obj/item/device/encryptionkey/headset_hadescl
 
-/obj/item/device/radio/headset/heads/torchntcommand/alt
+/obj/item/device/radio/headset/heads/hadesntcommand/alt
 	name = "corporate command bowman headset"
 	icon_state = "nt_headset_alt"
 	item_state = "nt_headset_alt"
 
-/obj/item/device/radio/headset/heads/torchntdirector
+/obj/item/device/radio/headset/heads/hadesntdirector
 	name = "chief science officer headset"
 	desc = "Headset of the masters of the universe."
 	icon_state = "com_headset"
 	item_state = "headset"
-	ks1type = /obj/item/device/encryptionkey/headset_torchrd
+	ks1type = /obj/item/device/encryptionkey/headset_hadesrd
 
-/obj/item/device/radio/headset/heads/torchntdirector/alt
+/obj/item/device/radio/headset/heads/hadesntdirector/alt
 	name = "chief science officer's bowman headset"
 	icon_state = "com_headset_alt"
 	item_state = "com_headset_alt"
 
-/obj/item/device/radio/headset/heads/torchntcommand/alt
+/obj/item/device/radio/headset/heads/hadesntcommand/alt
 	name = "corporate command bowman headset"
 	icon_state = "nt_headset_alt"
 	item_state = "nt_headset_alt"

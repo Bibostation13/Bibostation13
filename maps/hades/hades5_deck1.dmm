@@ -9,13 +9,13 @@
 /turf/space,
 /area/space)
 "aac" = (
-/obj/effect/shuttle_landmark/torch/deck2/exploration_shuttle{
+/obj/effect/shuttle_landmark/hades/deck2/exploration_shuttle{
 	name = "1st Deck, Fore Starboard"
 	},
 /turf/space,
 /area/space)
 "aad" = (
-/obj/effect/shuttle_landmark/torch/deck2/guppy{
+/obj/effect/shuttle_landmark/hades/deck2/guppy{
 	name = "1st Deck, Aft"
 	},
 /turf/space,
@@ -3522,7 +3522,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/firstdeck/aftstarboard)
 "afY" = (
-/obj/machinery/vending/medical/torch{
+/obj/machinery/vending/medical/hades{
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/paleblue/mono,
@@ -5056,7 +5056,7 @@
 	dir = 4;
 	pixel_x = -21
 	},
-/obj/machinery/power/smes/buildable/preset/torch/substation{
+/obj/machinery/power/smes/buildable/preset/hades/substation{
 	RCon_tag = "Substation - First Deck"
 	},
 /turf/simulated/floor/plating,
@@ -5507,7 +5507,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/machinery/power/smes/buildable/preset/torch/substation{
+/obj/machinery/power/smes/buildable/preset/hades/substation{
 	RCon_tag = "Utility - Backup"
 	},
 /turf/simulated/floor/plating,
@@ -9073,7 +9073,7 @@
 "aCu" = (
 /obj/effect/floor_decal/corner/red/mono,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/secure_closet/security_torch,
+/obj/structure/closet/secure_closet/security_hades,
 /turf/simulated/floor/tiled/monotile,
 /area/security/locker)
 "aCv" = (
@@ -11804,7 +11804,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/random/torchcloset,
+/obj/random/hadescloset,
 /obj/random/coin,
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
@@ -13488,7 +13488,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/firstdeck/aftport)
 "aTF" = (
-/obj/random/torchcloset,
+/obj/random/hadescloset,
 /obj/item/storage/box/lights/mixed,
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
@@ -13538,7 +13538,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/firstdeck/aftport)
 "aTN" = (
-/obj/random/torchcloset,
+/obj/random/hadescloset,
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/firstdeck/aftport)
@@ -14590,7 +14590,7 @@
 /turf/space,
 /area/space)
 "aWo" = (
-/obj/effect/shuttle_landmark/torch/deck2/aquila{
+/obj/effect/shuttle_landmark/hades/deck2/aquila{
 	name = "1st Deck, Port"
 	},
 /turf/space,
@@ -15334,8 +15334,8 @@
 	pixel_x = -32
 	},
 /obj/effect/floor_decal/corner/research/mono,
-/obj/machinery/photocopier/faxmachine/torch{
-	department = "Torch - Research Paperwork Office"
+/obj/machinery/photocopier/faxmachine/hades{
+	department = "Hades - Research Paperwork Office"
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/rnd/office)
@@ -16192,7 +16192,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/medical/foyer/storeroom)
 "cWb" = (
-/obj/structure/closet/wardrobe/medic_torch,
+/obj/structure/closet/wardrobe/medic_hades,
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/alarm{
 	pixel_y = 24
@@ -16644,7 +16644,7 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/aft)
 "dEb" = (
-/obj/random/torchcloset,
+/obj/random/hadescloset,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/firstdeck/aftstarboard)
 "dFb" = (
@@ -20800,7 +20800,7 @@
 	dir = 2;
 	pixel_y = 24
 	},
-/obj/structure/closet/secure_closet/hydroponics_torch,
+/obj/structure/closet/secure_closet/hydroponics_hades,
 /turf/simulated/floor/tiled/white,
 /area/rnd/locker)
 "jHb" = (
@@ -21366,7 +21366,7 @@
 	dir = 9;
 	icon_state = "corner_white"
 	},
-/obj/machinery/keycard_auth/torch{
+/obj/machinery/keycard_auth/hades{
 	pixel_x = -24;
 	pixel_y = 0
 	},
@@ -22832,7 +22832,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury/tactical)
 "mrW" = (
-/obj/structure/closet/secure_closet/medical_torchsenior,
+/obj/structure/closet/secure_closet/medical_hadessenior,
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/alarm{
@@ -23139,7 +23139,7 @@
 	dir = 1;
 	icon_state = "warning"
 	},
-/obj/machinery/keycard_auth/torch{
+/obj/machinery/keycard_auth/hades{
 	pixel_x = -28
 	},
 /turf/simulated/floor/blackgrid,
@@ -23657,7 +23657,7 @@
 /area/security/processing)
 "nnb" = (
 /obj/effect/floor_decal/industrial/warning,
-/obj/machinery/keycard_auth/torch{
+/obj/machinery/keycard_auth/hades{
 	pixel_x = -28
 	},
 /turf/simulated/floor/blackgrid,
@@ -23755,7 +23755,7 @@
 	dir = 4
 	},
 /obj/machinery/photocopier/faxmachine{
-	department = "Torch - Investigations Office"
+	department = "Hades - Investigations Office"
 	},
 /turf/simulated/floor/tiled,
 /area/security/detectives_office)
@@ -23910,8 +23910,8 @@
 /area/teleporter/firstdeck)
 "nFh" = (
 /obj/structure/table/steel,
-/obj/machinery/photocopier/faxmachine/torch{
-	department = "Torch - Brig Chief"
+/obj/machinery/photocopier/faxmachine/hades{
+	department = "Hades - Brig Chief"
 	},
 /obj/machinery/camera/network/security{
 	c_tag = "Security Wing - Brig Chief";
@@ -23961,7 +23961,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/floor_decal/torchltdlogo{
+/obj/effect/floor_decal/hadesltdlogo{
 	icon_state = "topleft"
 	},
 /turf/simulated/floor/tiled,
@@ -23975,7 +23975,7 @@
 /turf/simulated/floor/plating,
 /area/security/wing)
 "nKb" = (
-/obj/effect/floor_decal/torchltdlogo{
+/obj/effect/floor_decal/hadesltdlogo{
 	icon_state = "topright"
 	},
 /turf/simulated/floor/tiled,
@@ -24073,11 +24073,11 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/floor_decal/torchltdlogo,
+/obj/effect/floor_decal/hadesltdlogo,
 /turf/simulated/floor/tiled,
 /area/rnd/entry)
 "nSb" = (
-/obj/effect/floor_decal/torchltdlogo{
+/obj/effect/floor_decal/hadesltdlogo{
 	icon_state = "bottomright"
 	},
 /turf/simulated/floor/tiled,
@@ -24428,7 +24428,7 @@
 "okp" = (
 /obj/effect/floor_decal/corner/red/mono,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/secure_closet/security_torch,
+/obj/structure/closet/secure_closet/security_hades,
 /obj/machinery/camera/network/security{
 	c_tag = "Security Wing - Locker Room";
 	dir = 8
@@ -24568,7 +24568,7 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/staging)
 "ovZ" = (
-/obj/structure/closet/secure_closet/medical_torchsenior,
+/obj/structure/closet/secure_closet/medical_hadessenior,
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/sign/warning/nosmoking_1{
@@ -25291,11 +25291,11 @@
 	pixel_y = -22
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/secure_closet/scientist_torch,
+/obj/structure/closet/secure_closet/scientist_hades,
 /turf/simulated/floor/tiled/white,
 /area/rnd/locker)
 "psb" = (
-/obj/structure/closet/secure_closet/secure_closet/xenoarchaeologist_torch,
+/obj/structure/closet/secure_closet/secure_closet/xenoarchaeologist_hades,
 /obj/effect/floor_decal/corner/research{
 	dir = 10;
 	icon_state = "corner_white"
@@ -27446,7 +27446,7 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/center)
 "rKD" = (
-/obj/random/torchcloset,
+/obj/random/hadescloset,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/centralstarboard)
@@ -28178,7 +28178,7 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/rnd/xenobiology/xenoflora)
 "sub" = (
-/obj/structure/closet/secure_closet/hydroponics_torch,
+/obj/structure/closet/secure_closet/hydroponics_hades,
 /obj/effect/floor_decal/corner/research/mono,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/white/monotile,
@@ -28273,7 +28273,7 @@
 	dir = 8;
 	id_tag = "BrigFoyer";
 	name = "Security Wing";
-	req_access = list(list("ACCESS_SEC_DOORS","ACCESS_TORCH_CREW"))
+	req_access = list(list("ACCESS_SEC_DOORS","ACCESS_HADES_CREW"))
 	},
 /turf/simulated/floor/tiled,
 /area/security/wing)
@@ -28452,7 +28452,7 @@
 /turf/simulated/floor/tiled/white,
 /area/medical/staging)
 "sHb" = (
-/obj/structure/closet/secure_closet/medical_torchsenior,
+/obj/structure/closet/secure_closet/medical_hadessenior,
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/power/apc{
@@ -29217,7 +29217,7 @@
 /turf/simulated/wall/r_wall/hull,
 /area/rnd/xenobiology)
 "tzg" = (
-/obj/random/torchcloset,
+/obj/random/hadescloset,
 /obj/random/maintenance/solgov,
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
@@ -30021,7 +30021,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/command/conference)
 "vii" = (
-/obj/structure/closet/secure_closet/medical_torch,
+/obj/structure/closet/secure_closet/medical_hades,
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/white/monotile,

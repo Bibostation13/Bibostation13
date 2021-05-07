@@ -183,7 +183,7 @@
 	info = {"A "confidential" notice issued to Sol Government Representatives, informing them of an office fire caused by improper cigarette ash management."}
 
 /obj/item/paper/memo/scgr/boringreports
-	name = "\improper Torch project status update #132"
+	name = "\improper Hades project status update #132"
 	info = {"A "confidential" report containing nothing you'd like to read, featuring updates that you knew about three weeks ago."}
 
 /obj/item/paper/memo/scgr/documentdamage
@@ -196,7 +196,7 @@
 
 /obj/item/paper/memo/scgr/yourjob
 	name = "\improper SCG and you"
-	info = {"Some "confidential" briefing documents, detailing the job of the SCGR in brief. It highlights they are a civilian, first and foremost, who functions as a general-purpose civil servant aboard the SEV Torch. They also should advise the Commanding Officer, assisting with bureaucratic affairs where required, and spearheading diplomatic negotations."}
+	info = {"Some "confidential" briefing documents, detailing the job of the SCGR in brief. It highlights they are a civilian, first and foremost, who functions as a general-purpose civil servant aboard the SEV Hades. They also should advise the Commanding Officer, assisting with bureaucratic affairs where required, and spearheading diplomatic negotations."}
 
 /obj/item/paper/memo/scgr/perdiemdeny
 	name = "per diem denials"
@@ -312,7 +312,7 @@
 
 /obj/item/paper/memo/engineering/repairs
 	name = "maintenance reports"
-	info = {"Some "confidential" reports regarding the state of the SEV Torch. Of note are the rusty cistern, faulty disposal pipes, clogged sinks, and an under-sized atmospheric system."}
+	info = {"Some "confidential" reports regarding the state of the SEV Hades. Of note are the rusty cistern, faulty disposal pipes, clogged sinks, and an under-sized atmospheric system."}
 
 /obj/item/paper/memo/engineering/shieldsoff
 	name = "shielding recommendations"
@@ -436,7 +436,7 @@
 
 /obj/item/paper/memo/exploration/cigarettes
 	name = "cigarettes with helmets"
-	info = {"Some "internal use only" reports detailing the extreme hazards of attempting to smoke a cigarette while wearing a spaceproof helmet, citing many incidents of suffocation and subsequent death as well as pointing out the presence of a "No Smoking" sign onboard the Charon and the likely flammability of many exoplanets. It concludes with a recommendation to smoke only in designated breakrooms aboard the SEV Torch and not when wearing a helmet."}
+	info = {"Some "internal use only" reports detailing the extreme hazards of attempting to smoke a cigarette while wearing a spaceproof helmet, citing many incidents of suffocation and subsequent death as well as pointing out the presence of a "No Smoking" sign onboard the Charon and the likely flammability of many exoplanets. It concludes with a recommendation to smoke only in designated breakrooms aboard the SEV Hades and not when wearing a helmet."}
 
 /obj/item/paper/memo/exploration/documentplease
 	name = "on documentation of sites"
@@ -484,11 +484,11 @@
 
 /obj/item/paper/memo/corporate/stipendcut
 	name = "corporate spending records"
-	info = {"A "confidential" memo on the current usage of funds provided to SEV Torch corporate liaisons; apparently there's threats of a strike over a cut to the cost-of-living stipends by the head office."}
+	info = {"A "confidential" memo on the current usage of funds provided to SEV Hades corporate liaisons; apparently there's threats of a strike over a cut to the cost-of-living stipends by the head office."}
 
 /obj/item/paper/memo/corporate/LPArenting
 	name = "\improper LPA usage notice"
-	info = {"A "confidential" notice to the corporate liaison aboard the SEV Torch that their security staff are for their use only, and renting them out as extra manpower to security is a gross violation of their contract."}
+	info = {"A "confidential" notice to the corporate liaison aboard the SEV Hades that their security staff are for their use only, and renting them out as extra manpower to security is a gross violation of their contract."}
 
 /obj/item/paper/memo/corporate/uniondues
 	name = "union dues reminder"
@@ -504,7 +504,7 @@
 
 /obj/item/paper/memo/corporate/exointerest
 	name = "\improper EXO and you"
-	info = {"Some "confidential" corporate documents directed to the corporate liasion, informing them that their job is to represent EXO and its immediate interests, which are to ensure the SEV Torch is able to maintain the currently defined direction that is within the interests of EXO as a whole."}
+	info = {"Some "confidential" corporate documents directed to the corporate liasion, informing them that their job is to represent EXO and its immediate interests, which are to ensure the SEV Hades is able to maintain the currently defined direction that is within the interests of EXO as a whole."}
 
 /obj/item/paper/memo/corporate/thequarterly
 	name = "quarterly budget report"

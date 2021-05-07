@@ -845,7 +845,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/medical/morgue)
 "bC" = (
-/obj/random/torchcloset,
+/obj/random/hadescloset,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/seconddeck/aftstarboard)
 "bD" = (
@@ -2419,7 +2419,7 @@
 /turf/simulated/floor/reinforced/airless,
 /area/vacant/prototype/engine)
 "ex" = (
-/obj/random/torchcloset,
+/obj/random/hadescloset,
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/forestarboard)
 "ey" = (
@@ -3423,7 +3423,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/seconddeck/aftstarboard)
 "gy" = (
-/obj/random/torchcloset,
+/obj/random/hadescloset,
 /obj/random/maintenance/solgov,
 /obj/random/junk,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -3494,7 +3494,7 @@
 /turf/simulated/wall/r_wall/hull,
 /area/space)
 "gF" = (
-/obj/machinery/power/smes/buildable/preset/torch/substation{
+/obj/machinery/power/smes/buildable/preset/hades/substation{
 	RCon_tag = "Substation - Second Deck"
 	},
 /obj/structure/cable/green{
@@ -5014,7 +5014,7 @@
 "ky" = (
 /obj/machinery/shield_diffuser,
 /turf/simulated/floor/reinforced/airless,
-/area/torchexterior)
+/area/hadesexterior)
 "kz" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -5088,7 +5088,7 @@
 /area/teleporter/seconddeck)
 "kH" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/secure_closet/engineering_torch,
+/obj/structure/closet/secure_closet/engineering_hades,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/locker_room)
 "kJ" = (
@@ -5354,7 +5354,7 @@
 /area/engineering/engine_room)
 "lk" = (
 /turf/simulated/floor/reinforced/airless,
-/area/torchexterior)
+/area/hadesexterior)
 "ll" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 6
@@ -7366,7 +7366,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/assembly/robotics)
 "qu" = (
-/obj/effect/shuttle_landmark/torch/deck3/aquila{
+/obj/effect/shuttle_landmark/hades/deck3/aquila{
 	name = "2nd Deck, Aft Port"
 	},
 /turf/space,
@@ -7378,7 +7378,7 @@
 /turf/simulated/wall/r_wall/hull,
 /area/vacant/prototype/engine)
 "qy" = (
-/obj/machinery/power/smes/buildable/preset/torch/substation_full,
+/obj/machinery/power/smes/buildable/preset/hades/substation_full,
 /obj/structure/cable,
 /turf/simulated/floor/plating,
 /area/engineering/shieldbay)
@@ -8009,7 +8009,7 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/engineering/engineering_monitoring)
 "rA" = (
-/obj/machinery/drone_fabricator/torch,
+/obj/machinery/drone_fabricator/hades,
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/drone_fabrication)
 "rB" = (
@@ -8769,7 +8769,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/atmos)
 "tL" = (
-/obj/structure/closet/secure_closet/atmos_torch,
+/obj/structure/closet/secure_closet/atmos_hades,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -8996,7 +8996,7 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/engineering/foyer)
 "us" = (
-/obj/structure/closet/secure_closet/atmos_torch,
+/obj/structure/closet/secure_closet/atmos_hades,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -10121,7 +10121,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/obj/structure/closet/secure_closet/medical_torch,
+/obj/structure/closet/secure_closet/medical_hades,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/medical)
@@ -10243,7 +10243,7 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/escape_pod10/station)
 "ya" = (
-/obj/random/torchcloset,
+/obj/random/hadescloset,
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/seconddeck/foreport)
@@ -11837,7 +11837,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/vacant/cargo)
 "Cw" = (
-/obj/random/torchcloset,
+/obj/random/hadescloset,
 /obj/random/maintenance/solgov,
 /obj/random/maintenance/solgov,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -12240,7 +12240,7 @@
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/foreport)
 "Ds" = (
-/obj/random/torchcloset,
+/obj/random/hadescloset,
 /obj/random/maintenance/solgov,
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/foreport)
@@ -12468,7 +12468,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/research)
 "DW" = (
-/obj/structure/closet/secure_closet/scientist_torch,
+/obj/structure/closet/secure_closet/scientist_hades,
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/research)
@@ -12477,7 +12477,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/research)
 "DY" = (
-/obj/structure/closet/secure_closet/secure_closet/xenoarchaeologist_torch,
+/obj/structure/closet/secure_closet/secure_closet/xenoarchaeologist_hades,
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/research)
@@ -13276,7 +13276,7 @@
 /turf/space,
 /area/space)
 "FT" = (
-/obj/effect/shuttle_landmark/torch/deck3/exploration_shuttle{
+/obj/effect/shuttle_landmark/hades/deck3/exploration_shuttle{
 	name = "2nd Deck, Port"
 	},
 /turf/space,
@@ -13295,7 +13295,7 @@
 /turf/simulated/wall/r_wall/hull,
 /area/space)
 "Gb" = (
-/obj/effect/shuttle_landmark/torch/deck3/guppy{
+/obj/effect/shuttle_landmark/hades/deck3/guppy{
 	name = "2nd Deck, Fore"
 	},
 /turf/space,
@@ -13305,7 +13305,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/machinery/power/smes/buildable/preset/torch/substation_full{
+/obj/machinery/power/smes/buildable/preset/hades/substation_full{
 	RCon_tag = "Substation - Atmospherics"
 	},
 /turf/simulated/floor/plating,
@@ -13937,7 +13937,7 @@
 /area/engineering/atmos)
 "Id" = (
 /obj/effect/engine_setup/smes,
-/obj/machinery/power/smes/buildable/preset/torch/substation_full{
+/obj/machinery/power/smes/buildable/preset/hades/substation_full{
 	RCon_tag = "Substation - Engine"
 	},
 /obj/structure/cable/cyan{
@@ -14009,7 +14009,7 @@
 /area/vacant/prototype/control)
 "Ik" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/secure_closet/engineering_torch,
+/obj/structure/closet/secure_closet/engineering_hades,
 /obj/machinery/light,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/locker_room)
@@ -14317,7 +14317,7 @@
 /turf/simulated/floor/plating,
 /area/engineering/engine_smes)
 "Jf" = (
-/obj/machinery/power/smes/buildable/preset/torch/hangar{
+/obj/machinery/power/smes/buildable/preset/hades/hangar{
 	RCon_tag = "Substation - Shields"
 	},
 /obj/structure/cable/cyan{
@@ -14609,7 +14609,7 @@
 /area/engineering/atmos)
 "Kd" = (
 /obj/effect/engine_setup/smes,
-/obj/machinery/power/smes/buildable/preset/torch/engine_main{
+/obj/machinery/power/smes/buildable/preset/hades/engine_main{
 	RCon_tag = "Engine - Main"
 	},
 /obj/structure/cable{
@@ -15900,7 +15900,7 @@
 /area/hallway/primary/seconddeck/fore)
 "Ot" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/secure_closet/engineering_torch,
+/obj/structure/closet/secure_closet/engineering_hades,
 /obj/structure/noticeboard{
 	pixel_y = 32
 	},
@@ -16613,7 +16613,7 @@
 /area/engineering/engine_room)
 "QH" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/secure_closet/engineering_torch,
+/obj/structure/closet/secure_closet/engineering_hades,
 /obj/machinery/firealarm{
 	pixel_y = 21
 	},
@@ -17033,7 +17033,7 @@
 /area/vacant/cargo)
 "RV" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/secure_closet/engineering_torch,
+/obj/structure/closet/secure_closet/engineering_hades,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -17462,7 +17462,7 @@
 /area/engineering/engine_room)
 "Tq" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/secure_closet/engineering_torch,
+/obj/structure/closet/secure_closet/engineering_hades,
 /obj/machinery/camera/network/engineering{
 	c_tag = "Engineering - Locker Room"
 	},
@@ -17697,7 +17697,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/obj/machinery/power/smes/buildable/preset/torch/engine_main{
+/obj/machinery/power/smes/buildable/preset/hades/engine_main{
 	RCon_tag = "Prototype - Main"
 	},
 /turf/simulated/floor/plating,

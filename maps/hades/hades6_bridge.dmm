@@ -1304,7 +1304,7 @@
 /area/bridge/hallway/starboard)
 "cy" = (
 /obj/effect/floor_decal/corner/blue/mono,
-/obj/machinery/keycard_auth/torch{
+/obj/machinery/keycard_auth/hades{
 	pixel_x = 0;
 	pixel_y = 38
 	},
@@ -1848,8 +1848,8 @@
 	dir = 4;
 	icon_state = "tube1"
 	},
-/obj/machinery/photocopier/faxmachine/torch{
-	department = "Torch - Bridge"
+/obj/machinery/photocopier/faxmachine/hades{
+	department = "Hades - Bridge"
 	},
 /obj/machinery/button/alternate/door{
 	id_tag = "meetingstarboard";
@@ -2131,7 +2131,7 @@
 /turf/simulated/floor/carpet/blue2,
 /area/bridge/meeting_room)
 "dL" = (
-/obj/structure/closet/secure_closet/engineering_chief_torch,
+/obj/structure/closet/secure_closet/engineering_chief_hades,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/monotile,
 /area/crew_quarters/heads/office/ce)
@@ -2455,7 +2455,7 @@
 	name = "plastic table frame"
 	},
 /obj/effect/floor_decal/corner/red/mono,
-/obj/machinery/keycard_auth/torch{
+/obj/machinery/keycard_auth/hades{
 	pixel_x = 26;
 	pixel_y = 0
 	},
@@ -2472,7 +2472,7 @@
 /area/crew_quarters/heads/office/cos)
 "ev" = (
 /obj/effect/floor_decal/corner/blue/mono,
-/obj/machinery/keycard_auth/torch{
+/obj/machinery/keycard_auth/hades{
 	pixel_x = 0;
 	pixel_y = -38
 	},
@@ -2618,7 +2618,7 @@
 /area/bridge/meeting_room)
 "eH" = (
 /obj/machinery/computer/ship/helm{
-	req_access = list(list("ACCESS_TORCH_AQUILA_HELM"))
+	req_access = list(list("ACCESS_HADES_AQUILA_HELM"))
 	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/cockpit)
@@ -2968,7 +2968,7 @@
 	enabled = 0;
 	name = "Aquila point defense control";
 	pixel_x = 32;
-	req_access = list("ACCESS_TORCH_AQUILA_HELM")
+	req_access = list("ACCESS_HADES_AQUILA_HELM")
 	},
 /obj/structure/bed/chair/shuttle/blue{
 	dir = 1;
@@ -3342,7 +3342,7 @@
 	pixel_x = -21
 	},
 /obj/prefab/hand_teleporter,
-/obj/item/toy/torchmodel,
+/obj/item/toy/hadesmodel,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/cobed)
 "fW" = (
@@ -3480,7 +3480,7 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/fore)
 "gl" = (
-/obj/effect/shuttle_landmark/torch/deck1/exploration_shuttle{
+/obj/effect/shuttle_landmark/hades/deck1/exploration_shuttle{
 	name = "B-Deck, Fore Port"
 	},
 /turf/space,
@@ -3590,7 +3590,7 @@
 	name = "SCGR's Office Door Control";
 	pixel_x = 27;
 	pixel_y = 5;
-	req_access = list("ACCESS_TORCH_REPRESENTATIVE")
+	req_access = list("ACCESS_HADES_REPRESENTATIVE")
 	},
 /obj/machinery/button/windowtint{
 	id = "sgr_windows";
@@ -4062,8 +4062,8 @@
 /turf/simulated/floor/tiled,
 /area/crew_quarters/heads/office/ce)
 "ik" = (
-/obj/machinery/photocopier/faxmachine/torch{
-	department = "Torch - Corporate Liasion"
+/obj/machinery/photocopier/faxmachine/hades{
+	department = "Hades - Corporate Liasion"
 	},
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/structure/noticeboard{
@@ -4075,7 +4075,7 @@
 	name = "CL's Rear Office Door Bolt Control";
 	pixel_x = 6;
 	pixel_y = 26;
-	req_access = list("ACCESS_TORCH_CORPORATE_LIAISON")
+	req_access = list("ACCESS_HADES_CORPORATE_LIAISON")
 	},
 /obj/machinery/button/alternate/door/bolts{
 	desc = "A remote control-switch for the office door.";
@@ -4083,7 +4083,7 @@
 	name = "CL's Front Office Door Bolt Control";
 	pixel_x = -5;
 	pixel_y = 26;
-	req_access = list("ACCESS_TORCH_CORPORATE_LIAISON")
+	req_access = list("ACCESS_HADES_CORPORATE_LIAISON")
 	},
 /obj/machinery/light_switch{
 	pixel_x = 1;
@@ -5456,7 +5456,7 @@
 	name = "SEA's Office Door Control";
 	pixel_x = -6;
 	pixel_y = -25;
-	req_access = list("ACCESS_TORCH_SENIOR_ADVISOR")
+	req_access = list("ACCESS_HADES_SENIOR_ADVISOR")
 	},
 /obj/machinery/button/windowtint{
 	id = "sea_windows";
@@ -5547,8 +5547,8 @@
 	dir = 8;
 	pixel_x = 20
 	},
-/obj/machinery/photocopier/faxmachine/torch{
-	department = "Torch - Chief of Security"
+/obj/machinery/photocopier/faxmachine/hades{
+	department = "Hades - Chief of Security"
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/cos)
@@ -7310,7 +7310,7 @@
 /obj/item/device/radio/intercom{
 	pixel_y = 23
 	},
-/obj/item/toy/torchmodel,
+/obj/item/toy/hadesmodel,
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/random_multi/single_item/runtime,
 /turf/simulated/floor/wood/walnut,
@@ -7836,7 +7836,7 @@
 /obj/item/device/radio/intercom{
 	pixel_y = 23
 	},
-/obj/machinery/power/smes/buildable/preset/torch/substation{
+/obj/machinery/power/smes/buildable/preset/hades/substation{
 	RCon_tag = "Substation - Bridge Deck"
 	},
 /turf/simulated/floor/plating,
@@ -8732,7 +8732,7 @@
 /obj/item/reagent_containers/food/drinks/ice,
 /obj/item/reagent_containers/food/drinks/bottle/cognac,
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/machinery/keycard_auth/torch{
+/obj/machinery/keycard_auth/hades{
 	pixel_x = 0;
 	pixel_y = 24
 	},
@@ -9202,7 +9202,7 @@
 /obj/structure/noticeboard{
 	pixel_x = -32
 	},
-/obj/machinery/keycard_auth/torch{
+/obj/machinery/keycard_auth/hades{
 	pixel_x = 0;
 	pixel_y = -24
 	},
@@ -9257,8 +9257,8 @@
 /area/crew_quarters/heads/office/cos)
 "wD" = (
 /obj/structure/table/woodentable/walnut,
-/obj/machinery/photocopier/faxmachine/torch{
-	department = "Torch - SolGov Representative"
+/obj/machinery/photocopier/faxmachine/hades{
+	department = "Hades - SolGov Representative"
 	},
 /obj/item/device/radio/intercom{
 	dir = 4;
@@ -9945,7 +9945,7 @@
 /obj/item/reagent_containers/food/drinks/bottle/orangejuice,
 /obj/item/reagent_containers/food/drinks/ice,
 /obj/machinery/light,
-/obj/machinery/keycard_auth/torch{
+/obj/machinery/keycard_auth/hades{
 	pixel_x = 0;
 	pixel_y = -24
 	},
@@ -9979,7 +9979,7 @@
 /turf/space,
 /area/space)
 "yB" = (
-/obj/effect/shuttle_landmark/torch/deck1/guppy{
+/obj/effect/shuttle_landmark/hades/deck1/guppy{
 	name = "B-Deck, Aft Starboard"
 	},
 /turf/space,
@@ -10004,7 +10004,7 @@
 /area/crew_quarters/safe_room/bridge)
 "yM" = (
 /obj/structure/sign/dedicationplaque{
-	desc = "S.E.V. Torch - Mako Class - Sol Expeditionary Corps Registry 95519 - Shiva Fleet Yards, Mars - First Vessel To Bear The Name - Launched 2302 - Sol Central Government - 'Never was anything great achieved without danger.'";
+	desc = "S.E.V. Hades - Mako Class - Sol Expeditionary Corps Registry 95519 - Shiva Fleet Yards, Mars - First Vessel To Bear The Name - Launched 2302 - Sol Central Government - 'Never was anything great achieved without danger.'";
 	pixel_x = 0
 	},
 /turf/simulated/wall/r_wall/prepainted,
@@ -10135,7 +10135,7 @@
 "zx" = (
 /obj/structure/catwalk,
 /obj/machinery/pointdefense{
-	initial_id_tag = "torch_primary_pd"
+	initial_id_tag = "hades_primary_pd"
 	},
 /obj/machinery/power/terminal{
 	dir = 4
@@ -10538,7 +10538,7 @@
 	dir = 8;
 	id_tag = "portbridgeaccess";
 	name = "Bridge Access";
-	req_access = list(list("ACCESS_BRIDGE","ACCESS_TORCH_CREW"))
+	req_access = list(list("ACCESS_BRIDGE","ACCESS_HADES_CREW"))
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/bridge/hallway/port)
@@ -10594,7 +10594,7 @@
 /turf/simulated/floor/tiled/monotile,
 /area/crew_quarters/heads/office/ce)
 "Bc" = (
-/obj/machinery/power/smes/buildable/preset/torch/shuttle{
+/obj/machinery/power/smes/buildable/preset/hades/shuttle{
 	RCon_tag = "Shuttle - Aquila"
 	},
 /obj/structure/cable/cyan,
@@ -10749,7 +10749,7 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/fore)
 "Cb" = (
-/obj/effect/shuttle_landmark/torch/deck1/aquila{
+/obj/effect/shuttle_landmark/hades/deck1/aquila{
 	name = "B-Deck, Fore Starboard"
 	},
 /turf/space,
@@ -11379,7 +11379,7 @@
 /area/crew_quarters/heads/office/cmo)
 "EP" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
-/obj/structure/closet/secure_closet/CMO_torch,
+/obj/structure/closet/secure_closet/CMO_hades,
 /obj/item/storage/belt/medical,
 /obj/item/book/manual/sol_sop,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -11529,8 +11529,8 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge)
 "FG" = (
-/obj/machinery/photocopier/faxmachine/torch{
-	department = "Torch - Executive Officer"
+/obj/machinery/photocopier/faxmachine/hades{
+	department = "Hades - Executive Officer"
 	},
 /obj/structure/noticeboard{
 	pixel_y = 30
@@ -11743,7 +11743,7 @@
 	name = "CL's Front Office Door Control";
 	pixel_x = 27;
 	pixel_y = -7;
-	req_access = list("ACCESS_TORCH_CORPORATE_LIAISON")
+	req_access = list("ACCESS_HADES_CORPORATE_LIAISON")
 	},
 /obj/machinery/button/windowtint{
 	id = "cl_windows";
@@ -11817,7 +11817,7 @@
 	products = list(/obj/item/stack/medical/bruise_pack = 6, /obj/item/stack/medical/ointment = 6, /obj/item/reagent_containers/pill/paracetamol = 8, /obj/item/storage/med_pouch/trauma = 4, /obj/item/storage/med_pouch/burn = 2, /obj/item/storage/med_pouch/oxyloss = 2, /obj/item/storage/med_pouch/toxin = 2)
 	},
 /obj/machinery/pointdefense_control{
-	initial_id_tag = "torch_primary_pd";
+	initial_id_tag = "hades_primary_pd";
 	name = "Point Defense Controller"
 	},
 /turf/simulated/floor/tiled/dark/monotile,
@@ -11983,7 +11983,7 @@
 	dir = 8;
 	id_tag = "starboardbridgeaccess";
 	name = "Bridge Access";
-	req_access = list(list("ACCESS_BRIDGE","ACCESS_TORCH_CREW"))
+	req_access = list(list("ACCESS_BRIDGE","ACCESS_HADES_CREW"))
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -12137,7 +12137,7 @@
 /turf/simulated/floor/carpet/blue2,
 /area/crew_quarters/heads/office/sgr)
 "HK" = (
-/obj/effect/overmap/visitable/ship/torch,
+/obj/effect/overmap/visitable/ship/hades,
 /turf/simulated/floor/tiled/dark,
 /area/bridge)
 "HP" = (
@@ -12424,8 +12424,8 @@
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
-/obj/machinery/photocopier/faxmachine/torch{
-	department = "Torch - Senior Enlisted Advisor"
+/obj/machinery/photocopier/faxmachine/hades{
+	department = "Hades - Senior Enlisted Advisor"
 	},
 /obj/effect/floor_decal/corner/blue/mono,
 /obj/machinery/requests_console{
@@ -12506,7 +12506,7 @@
 /area/aquila/secure_storage)
 "IT" = (
 /obj/structure/table/glass,
-/obj/machinery/keycard_auth/torch{
+/obj/machinery/keycard_auth/hades{
 	pixel_x = 26;
 	pixel_y = 0
 	},
@@ -12716,7 +12716,7 @@
 	dir = 1
 	},
 /obj/structure/table/woodentable_reinforced/walnut/maple,
-/obj/machinery/keycard_auth/torch{
+/obj/machinery/keycard_auth/hades{
 	pixel_x = 26;
 	pixel_y = 0
 	},
@@ -12871,8 +12871,8 @@
 "KP" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/structure/table/glass,
-/obj/machinery/photocopier/faxmachine/torch{
-	department = "Torch - Chief Medical Officer"
+/obj/machinery/photocopier/faxmachine/hades{
+	department = "Hades - Chief Medical Officer"
 	},
 /obj/item/stamp/cmo,
 /obj/item/device/radio{
@@ -13169,7 +13169,7 @@
 	frequency = 1331;
 	id_tag = "aquila_shuttle";
 	pixel_y = 24;
-	req_access = list("ACCESS_TORCH_CREW");
+	req_access = list("ACCESS_HADES_CREW");
 	tag_exterior_sensor = "aquila_shuttle_sensor_external"
 	},
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
@@ -13372,8 +13372,8 @@
 	pixel_x = -6;
 	pixel_y = 24
 	},
-/obj/machinery/photocopier/faxmachine/torch{
-	department = "Torch - Commanding Officer"
+/obj/machinery/photocopier/faxmachine/hades{
+	department = "Hades - Commanding Officer"
 	},
 /obj/machinery/button/windowtint{
 	id = "co_windows";
@@ -13719,7 +13719,7 @@
 	name = "CL's Backroom Door Bolt Control";
 	pixel_x = -26;
 	pixel_y = -7;
-	req_access = list("ACCESS_TORCH_CORPORATE_LIAISON")
+	req_access = list("ACCESS_HADES_CORPORATE_LIAISON")
 	},
 /obj/machinery/light_switch{
 	pixel_x = -24;
@@ -13976,7 +13976,7 @@
 "Qb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/shuttle_landmark/torch/hangar/aquila,
+/obj/effect/shuttle_landmark/hades/hangar/aquila,
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -14261,7 +14261,7 @@
 /area/bridge)
 "QX" = (
 /obj/item/device/flashlight/lamp/green,
-/obj/machinery/keycard_auth/torch{
+/obj/machinery/keycard_auth/hades{
 	pixel_x = 0;
 	pixel_y = 24
 	},
@@ -14436,7 +14436,7 @@
 /obj/machinery/computer/ship/helm{
 	dir = 4;
 	icon_state = "computer";
-	req_access = list(list("ACCESS_TORCH_HELM"))
+	req_access = list(list("ACCESS_HADES_HELM"))
 	},
 /obj/effect/floor_decal/corner/blue/mono,
 /obj/structure/cable/green{
@@ -14635,7 +14635,7 @@
 	id_tag = "aquila_shuttle_dock_airlock";
 	pixel_x = 24;
 	pixel_y = 24;
-	req_access = list(list("ACCESS_BRIDGE","ACCESS_TORCH_CREW"));
+	req_access = list(list("ACCESS_BRIDGE","ACCESS_HADES_CREW"));
 	tag_airpump = "aquila_shuttle_dock_pump";
 	tag_chamber_sensor = "aquila_shuttle_dock_sensor";
 	tag_exterior_door = "aquila_shuttle_dock_outer";
@@ -14896,7 +14896,7 @@
 	id_tag = "aquila_shuttle_dock_inner";
 	locked = 1;
 	name = "Docking Port Airlock";
-	req_access = list("ACCESS_TORCH_CREW")
+	req_access = list("ACCESS_HADES_CREW")
 	},
 /obj/structure/cable/green{
 	d1 = 4;
@@ -14930,7 +14930,7 @@
 "Ti" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/effect/floor_decal/corner/research/mono,
-/obj/structure/closet/secure_closet/RD_torch,
+/obj/structure/closet/secure_closet/RD_hades,
 /turf/simulated/floor/tiled/monotile,
 /area/crew_quarters/heads/office/rd)
 "Tl" = (
@@ -15106,7 +15106,7 @@
 	id_tag = "aquila_shuttle_dock_outer";
 	locked = 1;
 	name = "Docking Port Airlock";
-	req_access = list("ACCESS_TORCH_CREW")
+	req_access = list("ACCESS_HADES_CREW")
 	},
 /obj/structure/cable/green{
 	d1 = 4;
@@ -15307,7 +15307,7 @@
 	id_tag = "aquila_shuttle_outer";
 	locked = 1;
 	name = "Aquila External Access";
-	req_access = list("ACCESS_TORCH_CREW")
+	req_access = list("ACCESS_HADES_CREW")
 	},
 /obj/machinery/shield_diffuser,
 /obj/structure/cable{
@@ -15562,7 +15562,7 @@
 	id_tag = "aquila_shuttle_inner";
 	locked = 1;
 	name = "Aquila External Access";
-	req_access = list("ACCESS_TORCH_CREW")
+	req_access = list("ACCESS_HADES_CREW")
 	},
 /obj/structure/cable{
 	d1 = 4;
@@ -15588,8 +15588,8 @@
 /area/security/bridgecheck)
 "Wi" = (
 /obj/structure/table/glass,
-/obj/machinery/photocopier/faxmachine/torch{
-	department = "Torch - Chief Science Officer"
+/obj/machinery/photocopier/faxmachine/hades{
+	department = "Hades - Chief Science Officer"
 	},
 /obj/machinery/newscaster{
 	pixel_y = 32
@@ -16248,13 +16248,13 @@
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
-/obj/machinery/keycard_auth/torch{
+/obj/machinery/keycard_auth/hades{
 	pixel_x = 26;
 	pixel_y = 0
 	},
 /obj/effect/floor_decal/corner/yellow/mono,
-/obj/machinery/photocopier/faxmachine/torch{
-	department = "Torch - Chief Engineer"
+/obj/machinery/photocopier/faxmachine/hades{
+	department = "Hades - Chief Engineer"
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/crew_quarters/heads/office/ce)

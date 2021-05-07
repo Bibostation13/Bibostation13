@@ -30,7 +30,7 @@
 	else
 		priority_announcement.Announce("The maintenance access requirement has been readded on all maintenance airlocks.", "Attention!")
 
-/datum/map/torch/roundend_player_status()
+/datum/map/hades/roundend_player_status()
 	for(var/mob/Player in GLOB.player_list)
 		if(Player.mind && !isnewplayer(Player))
 			if(Player.stat != DEAD)
@@ -56,7 +56,7 @@
 				else
 					to_chat(Player, "<font color='red'><b>You did not survive the events on [station_name()]...</b></font>")
 
-/datum/map/torch/roundend_summary(list/data)
+/datum/map/hades/roundend_summary(list/data)
 	var/desc
 	var/survivors = data["surviving_total"]
 	var/escaped_total = data["escaped_total"]

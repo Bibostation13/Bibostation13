@@ -1,28 +1,28 @@
 /*
- * Torch Engineering
+ * Hades Engineering
  */
 
-/decl/closet_appearance/secure_closet/torch/engineering
+/decl/closet_appearance/secure_closet/hades/engineering
 	extra_decals = list(
 		"stripe_vertical_mid_full" = COLOR_WARM_YELLOW,
 		"exped" = COLOR_WARM_YELLOW
 	)
 
-/decl/closet_appearance/secure_closet/torch/engineering/atmos
+/decl/closet_appearance/secure_closet/hades/engineering/atmos
 	extra_decals = list(
 		"stripe_vertical_right_full" = COLOR_WARM_YELLOW,
 		"stripe_vertical_mid_full" = COLOR_CYAN_BLUE,
 		"atmos_upper" = COLOR_WARM_YELLOW
 	)
 
-/decl/closet_appearance/secure_closet/torch/engineering/se
+/decl/closet_appearance/secure_closet/hades/engineering/se
 	extra_decals = list(
 		"stripe_vertical_left_full" = COLOR_WARM_YELLOW,
 		"stripe_vertical_right_full" = COLOR_WARM_YELLOW,
 		"exped" = COLOR_WARM_YELLOW
 	)
 
-/decl/closet_appearance/secure_closet/torch/engineering/ce
+/decl/closet_appearance/secure_closet/hades/engineering/ce
 	extra_decals = list(
 		"stripe_vertical_left_full" = COLOR_WARM_YELLOW,
 		"stripe_vertical_mid_full" = COLOR_CLOSET_GOLD,
@@ -30,12 +30,12 @@
 		"exped" = COLOR_CLOSET_GOLD
 	)
 
-/obj/structure/closet/secure_closet/engineering_chief_torch
+/obj/structure/closet/secure_closet/engineering_chief_hades
 	name = "chief engineer's locker"
 	req_access = list(access_ce)
-	closet_appearance = /decl/closet_appearance/secure_closet/torch/engineering/ce
+	closet_appearance = /decl/closet_appearance/secure_closet/hades/engineering/ce
 
-/obj/structure/closet/secure_closet/engineering_chief_torch/WillContain()
+/obj/structure/closet/secure_closet/engineering_chief_hades/WillContain()
 	return list(
 		/obj/item/clothing/accessory/storage/brown_vest,
 		/obj/item/blueprints,
@@ -68,12 +68,12 @@
 		new /datum/atom_creator/weighted(list(/obj/item/storage/backpack/dufflebag/eng, /obj/item/storage/backpack/messenger/engi))
 	)
 
-/obj/structure/closet/secure_closet/engineering_torch
+/obj/structure/closet/secure_closet/engineering_hades
 	name = "engineer's locker"
 	req_access = list(access_engine_equip)
-	closet_appearance = /decl/closet_appearance/secure_closet/torch/engineering
+	closet_appearance = /decl/closet_appearance/secure_closet/hades/engineering
 
-/obj/structure/closet/secure_closet/engineering_torch/WillContain()
+/obj/structure/closet/secure_closet/engineering_hades/WillContain()
 	return list(
 		/obj/item/clothing/under/hazard,
 		/obj/item/clothing/accessory/storage/brown_vest,
@@ -96,7 +96,7 @@
 /obj/structure/closet/secure_closet/engineering_senior
 	name = "senior engineer's locker"
 	req_access = list(access_seneng)
-	closet_appearance = /decl/closet_appearance/secure_closet/torch/engineering/se
+	closet_appearance = /decl/closet_appearance/secure_closet/hades/engineering/se
 
 /obj/structure/closet/secure_closet/engineering_senior/WillContain()
 	return list(
@@ -121,12 +121,12 @@
 		new /datum/atom_creator/weighted(list(/obj/item/storage/backpack/dufflebag/eng, /obj/item/storage/backpack/messenger/engi))
 	)
 
-/obj/structure/closet/secure_closet/atmos_torch
+/obj/structure/closet/secure_closet/atmos_hades
 	name = "atmospherics equipment locker"
 	req_access = list(access_atmospherics)
-	closet_appearance = /decl/closet_appearance/secure_closet/torch/engineering/atmos
+	closet_appearance = /decl/closet_appearance/secure_closet/hades/engineering/atmos
 
-/obj/structure/closet/secure_closet/atmos_torch/WillContain()
+/obj/structure/closet/secure_closet/atmos_hades/WillContain()
 	return list(
 		/obj/item/clothing/under/hazard,
 		/obj/item/storage/backpack/dufflebag/firefighter,

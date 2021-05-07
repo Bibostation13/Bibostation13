@@ -45,7 +45,7 @@
 
 /obj/item/book/manual/sol_sop
 	name = "Standard Operating Procedure"
-	desc = "SOP aboard the SEV Torch."
+	desc = "SOP aboard the SEV Hades."
 	icon_state = "booksolregs"
 	author = "The Sol Central Government"
 	title = "Standard Operating Procedure"
@@ -68,7 +68,7 @@
 /obj/item/folder/nt/rd
 
 /obj/item/folder/envelope/captain
-	desc = "A thick envelope. The SCG crest is stamped in the corner, along with 'TOP SECRET - TORCH UMBRA'."
+	desc = "A thick envelope. The SCG crest is stamped in the corner, along with 'TOP SECRET - HADES UMBRA'."
 
 /obj/item/folder/envelope/captain/Initialize()
 	..()
@@ -76,14 +76,14 @@
 
 /obj/item/folder/envelope/captain/LateInitialize()
 	..()
-	var/obj/effect/overmap/visitable/torch = map_sectors["[z]"]
+	var/obj/effect/overmap/visitable/hades = map_sectors["[z]"]
 	var/memo = {"
-	<tt><center><b><font color='red'>SECRET - CODE WORDS: TORCH</font></b>
+	<tt><center><b><font color='red'>SECRET - CODE WORDS: HADES</font></b>
 	<h3>SOL CENTRAL GOVERNMENT EXPEDITIONARY COMMAND</h3>
 	<img src = sollogo.png>
 	</center>
 	<b>FROM:</b> ADM William Lau<br>
-	<b>TO:</b> Commanding Officer of SEV Torch<br>
+	<b>TO:</b> Commanding Officer of SEV Hades<br>
 	<b>SUBJECT:</b> Standing Orders<br>
 	<hr>
 	Captain.<br>
@@ -102,7 +102,7 @@
 	None of these systems are claimed by any entity recognized by the SCG, so you have full salvage rights on any derelicts discovered.<br>
 	Investigate and mark any prospective colony worlds as per usual procedures.<br>
 	There is no SCG presence in that area. In case of distress calls, you will be the only vessel available; do not ignore them. We cannot afford any more PR backlash.<br>
-	The current docking code is: [torch.docking_codes]<br>
+	The current docking code is: [hades.docking_codes]<br>
 	Report all findings via bluespace comm buoys during inter-system jumps.<br>
 
 	<i>ADM Lau.</i></tt>
@@ -112,7 +112,7 @@
 	new/obj/item/paper/umbra(src)
 
 /obj/item/folder/envelope/rep
-	desc = "A thick envelope. The SCG crest is stamped in the corner, along with 'TOP SECRET - TORCH UMBRA'."
+	desc = "A thick envelope. The SCG crest is stamped in the corner, along with 'TOP SECRET - HADES UMBRA'."
 
 /obj/item/folder/envelope/rep/Initialize()
 	. = ..()
@@ -121,19 +121,19 @@
 /obj/item/paper/umbra
 	name = "UMBRA Protocol"
 	info = {"
-	<tt><center><b><font color='red'>TOP SECRET - CODE WORDS: TORCH UMBRA</font></b>
+	<tt><center><b><font color='red'>TOP SECRET - CODE WORDS: HADES UMBRA</font></b>
 	<h3>OFFICE OF THE SECRETARY GENERAL OF SOL CENTRAL GOVERNMENT</h3>
 	<img src = sollogo.png>
 	</center>
 	<b>FROM:</b> Johnathan Smitherson, Special Aide of the Secretary General<br>
-	<b>TO:</b> Commanding Officer of the SEV Torch<br>
-	<b>CC:</b> Special Representative aboard the SEV Torch<br>
+	<b>TO:</b> Commanding Officer of the SEV Hades<br>
+	<b>CC:</b> Special Representative aboard the SEV Hades<br>
 	<b>SUBJECT:</b> UMBRA protocol<br>
 	<hr>
 	This is a small addendum to the usual operating procedures. Unlike the rest of SOP, this is not left to the Commanding Officer's discretion and is mandatory. As unconventional as this is, we felt it is essential for smooth operation of this mission.<br>
 	Procedure can be initiated only by transmission from SCG Expeditionary Command via secure channel. The sender may not introduce themselves, but you shouldn't have trouble confirming the transmission source, I believe.<br>
 	The signal to initiate the procedure are codewords 'GOOD NIGHT WORLD' used in this order as one phrase. You do not need to send acknowledgement.
-	<li>Information about this expedition's findings is to be treated as secret and vital to SCG's national security, and is protected under codeword UMBRA. Only SCG government employees and Skrell citizens aboard the SEV Torch are allowed access to this information on a need-to-know basis.</li>
+	<li>Information about this expedition's findings is to be treated as secret and vital to SCG's national security, and is protected under codeword UMBRA. Only SCG government employees and Skrell citizens aboard the SEV Hades are allowed access to this information on a need-to-know basis.</li>
 	<li>The secrecy of this information is to be applied retroactively. Any non-cleared personnel who were exposed to such information are to be secured and transferred to DIA on arrival at home port.</li>
 	<li>Any devices capable of transmitting or receiving data at interstellar range are to be confiscated from private possession.</li>
 	<li>Disregard any systems remaining in your flight plan and set course for Sol, Neptune orbit. You will be contacted upon your arrival. Do not make stops in ports on the way unless absolutely necessary.</li>

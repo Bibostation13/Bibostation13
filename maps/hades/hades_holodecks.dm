@@ -1,5 +1,5 @@
 
-/datum/map/torch
+/datum/map/hades
 
 	holodeck_programs = list(
 		"emptycourt"       = new/datum/holodeck_program(/area/holodeck/source_emptycourt, list('sound/music/THUNDERDOME.ogg')),
@@ -49,7 +49,7 @@
 
 	holodeck_supported_programs = list(
 
-		"TorchMainPrograms" = list(
+		"HadesMainPrograms" = list(
 			"Basketball Court"  = "basketball",
 			"Beach"             = "beach",
 			"Boxing Ring"       = "boxingcourt",
@@ -72,7 +72,7 @@
 
 	holodeck_restricted_programs = list(
 
-		"TorchMainPrograms" = list(
+		"HadesMainPrograms" = list(
 			"Wildlife Simulation" = "wildlifecarp"
 		)
 

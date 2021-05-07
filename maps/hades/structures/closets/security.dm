@@ -1,27 +1,27 @@
 /*
- * Torch Security
+ * Hades Security
  */
 
-/decl/closet_appearance/secure_closet/torch/security
+/decl/closet_appearance/secure_closet/hades/security
 	extra_decals = list(
 		"stripe_vertical_mid_full" = COLOR_NT_RED,
 		"security" = COLOR_NT_RED
 	)
 
-/decl/closet_appearance/secure_closet/torch/security/forensics
+/decl/closet_appearance/secure_closet/hades/security/forensics
 	extra_decals = list(
 		"stripe_vertical_mid_full" = COLOR_NT_RED,
 		"forensics" = COLOR_NT_RED
 	)
 
-/decl/closet_appearance/secure_closet/torch/security/warden
+/decl/closet_appearance/secure_closet/hades/security/warden
 	extra_decals = list(
 		"stripe_vertical_left_full" = COLOR_NT_RED,
 		"stripe_vertical_right_full" = COLOR_NT_RED,
 		"security" = COLOR_NT_RED
 	)
 
-/decl/closet_appearance/secure_closet/torch/security/hos
+/decl/closet_appearance/secure_closet/hades/security/hos
 	extra_decals = list(
 		"stripe_vertical_left_full" = COLOR_NT_RED,
 		"stripe_vertical_mid_full" = COLOR_CLOSET_GOLD,
@@ -29,12 +29,12 @@
 		"security" = COLOR_CLOSET_GOLD
 	)
 
-/obj/structure/closet/secure_closet/security_torch
+/obj/structure/closet/secure_closet/security_hades
 	name = "master at arms' locker"
 	req_access = list(access_brig)
-	closet_appearance = /decl/closet_appearance/secure_closet/torch/security
+	closet_appearance = /decl/closet_appearance/secure_closet/hades/security
 
-/obj/structure/closet/secure_closet/security_torch/WillContain()
+/obj/structure/closet/secure_closet/security_hades/WillContain()
 	return list(
 		/obj/item/clothing/suit/armor/pcarrier/medium/security,
 		/obj/item/clothing/head/helmet/solgov/security,
@@ -64,7 +64,7 @@
 /obj/structure/closet/secure_closet/cos
 	name = "chief of security's locker"
 	req_access = list(access_hos)
-	closet_appearance = /decl/closet_appearance/secure_closet/torch/security/hos
+	closet_appearance = /decl/closet_appearance/secure_closet/hades/security/hos
 
 /obj/structure/closet/secure_closet/cos/WillContain()
 	return list(
@@ -102,7 +102,7 @@
 /obj/structure/closet/secure_closet/brigchief
 	name = "brig chief's locker"
 	req_access = list(access_armory)
-	closet_appearance = /decl/closet_appearance/secure_closet/torch/security/warden
+	closet_appearance = /decl/closet_appearance/secure_closet/hades/security/warden
 
 /obj/structure/closet/secure_closet/brigchief/WillContain()
 	return list(
@@ -134,7 +134,7 @@
 /obj/structure/closet/secure_closet/forensics
 	name = "forensics technician's locker"
 	req_access = list(access_forensics_lockers)
-	closet_appearance = /decl/closet_appearance/secure_closet/torch/security/forensics
+	closet_appearance = /decl/closet_appearance/secure_closet/hades/security/forensics
 
 /obj/structure/closet/secure_closet/forensics/WillContain()
 	return list(

@@ -47,7 +47,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/structure/closet/secure_closet/hydroponics_torch,
+/obj/structure/closet/secure_closet/hydroponics_hades,
 /obj/machinery/light_switch{
 	pixel_y = 24
 	},
@@ -274,7 +274,7 @@
 /turf/simulated/wall/r_wall/hull,
 /area/hydroponics)
 "aX" = (
-/obj/random/torchcloset,
+/obj/random/hadescloset,
 /obj/random/maintenance/solgov,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
@@ -436,7 +436,7 @@
 /turf/simulated/floor/tiled/monotile,
 /area/tcommsat/storage)
 "bp" = (
-/obj/random/torchcloset,
+/obj/random/hadescloset,
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/forestarboard)
@@ -491,7 +491,7 @@
 	dir = 2;
 	pixel_y = 24
 	},
-/obj/structure/closet/secure_closet/hydroponics_torch,
+/obj/structure/closet/secure_closet/hydroponics_hades,
 /obj/effect/floor_decal/corner/green/mono,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/monotile,
@@ -1920,7 +1920,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/machinery/power/smes/buildable/preset/torch/substation{
+/obj/machinery/power/smes/buildable/preset/hades/substation{
 	RCon_tag = "Substation - Third Deck"
 	},
 /obj/item/device/radio/intercom{
@@ -1954,7 +1954,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/aftstarboard)
 "eg" = (
-/obj/random/torchcloset,
+/obj/random/hadescloset,
 /obj/item/storage/box/lights/mixed,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/aftstarboard)
@@ -2567,7 +2567,7 @@
 	dir = 8;
 	pixel_x = -24
 	},
-/obj/structure/closet/secure_closet/bar_torch,
+/obj/structure/closet/secure_closet/bar_hades,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/bar)
 "fv" = (
@@ -4952,7 +4952,7 @@
 	icon_state = "alarm0";
 	pixel_x = 24
 	},
-/obj/structure/closet/secure_closet/atmos_torch,
+/obj/structure/closet/secure_closet/atmos_hades,
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/atmos/aux)
@@ -6569,7 +6569,7 @@
 	dir = 8;
 	icon_state = "computer";
 	linkedholodeck_area = /area/holodeck/alphadeck;
-	programs_list_id = "TorchMainPrograms"
+	programs_list_id = "HadesMainPrograms"
 	},
 /turf/simulated/floor/tiled,
 /area/holocontrol)
@@ -9528,7 +9528,7 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/security/habcheck)
 "uO" = (
-/obj/effect/shuttle_landmark/torch/deck4/exploration_shuttle{
+/obj/effect/shuttle_landmark/hades/deck4/exploration_shuttle{
 	name = "3rd Deck, Fore Port"
 	},
 /turf/space,
@@ -11832,7 +11832,7 @@
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/thirddeck/foreport)
 "BW" = (
-/obj/random/torchcloset,
+/obj/random/hadescloset,
 /obj/random/maintenance/solgov,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/foreport)
@@ -12819,7 +12819,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/chapel/memorial)
 "Es" = (
-/obj/random/torchcloset,
+/obj/random/hadescloset,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/foreport)
 "Et" = (
@@ -13989,7 +13989,7 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/port)
 "HE" = (
-/obj/random/torchcloset,
+/obj/random/hadescloset,
 /obj/random/maintenance/solgov,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/port)
@@ -15388,7 +15388,7 @@
 	icon_state = "term"
 	},
 /obj/machinery/pointdefense{
-	initial_id_tag = "torch_primary_pd"
+	initial_id_tag = "hades_primary_pd"
 	},
 /obj/structure/cable/green,
 /turf/simulated/floor/reinforced/airless,
@@ -16617,7 +16617,7 @@
 /turf/simulated/floor/reinforced/airless,
 /area/thruster/d3port)
 "Ob" = (
-/obj/effect/shuttle_landmark/torch/deck4/aquila{
+/obj/effect/shuttle_landmark/hades/deck4/aquila{
 	name = "3rd Deck, Fore"
 	},
 /turf/space,
@@ -17141,7 +17141,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/observation)
 "PI" = (
-/obj/structure/closet/chefcloset_torch,
+/obj/structure/closet/chefcloset_hades,
 /turf/simulated/floor/tiled/freezer,
 /area/crew_quarters/galleybackroom)
 "PJ" = (
@@ -18166,7 +18166,7 @@
 	},
 /obj/machinery/pointdefense{
 	id_tag = null;
-	initial_id_tag = "torch_primary_pd"
+	initial_id_tag = "hades_primary_pd"
 	},
 /obj/structure/cable/green{
 	d2 = 8;
@@ -19847,7 +19847,7 @@
 "Xr" = (
 /obj/machinery/pointdefense{
 	id_tag = null;
-	initial_id_tag = "torch_primary_pd"
+	initial_id_tag = "hades_primary_pd"
 	},
 /obj/machinery/power/terminal,
 /obj/structure/cable/green{
@@ -20055,7 +20055,7 @@
 /turf/simulated/floor/tiled,
 /area/crew_quarters/cryolocker)
 "XS" = (
-/obj/random/torchcloset,
+/obj/random/hadescloset,
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/foreport)
@@ -20454,7 +20454,7 @@
 /area/maintenance/thirddeck/foreport)
 "Zg" = (
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/random/torchcloset,
+/obj/random/hadescloset,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/aftstarboard)
 "Zi" = (

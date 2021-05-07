@@ -1,17 +1,17 @@
-//Shouldn't be a lot in here, only torch versions of existing machines that need a different access req or something along those lines.
+//Shouldn't be a lot in here, only hades versions of existing machines that need a different access req or something along those lines.
 
-/obj/machinery/vending/medical/torch
+/obj/machinery/vending/medical/hades
 	req_access = list(access_medical)
 
-/obj/machinery/drone_fabricator/torch
-	fabricator_tag = "SEV Torch Maintenance"
+/obj/machinery/drone_fabricator/hades
+	fabricator_tag = "SEV Hades Maintenance"
 
-/obj/machinery/drone_fabricator/torch/adv
+/obj/machinery/drone_fabricator/hades/adv
 	name = "advanced drone fabricator"
 	fabricator_tag = "SFV Arrow Maintenance"
 	drone_type = /mob/living/silicon/robot/drone/construction
 
-//telecommunications gubbins for torch-specific networks
+//telecommunications gubbins for hades-specific networks
 
 /obj/machinery/telecomms/hub/preset
 	id = "Hub"

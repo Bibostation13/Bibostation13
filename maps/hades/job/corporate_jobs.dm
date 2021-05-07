@@ -15,7 +15,7 @@
 		"Corporate Representative",
 		"Corporate Executive"
 		)
-	outfit_type = /decl/hierarchy/outfit/job/torch/passenger/workplace_liaison
+	outfit_type = /decl/hierarchy/outfit/job/hades/passenger/workplace_liaison
 	allowed_branches = list(/datum/mil_branch/civilian)
 	allowed_ranks = list(/datum/mil_rank/civ/contractor)
 	min_skill = list(   SKILL_BUREAUCRACY	= SKILL_EXPERT,
@@ -24,14 +24,14 @@
 
 	access = list(
 		access_liaison, access_bridge, access_solgov_crew,
-		access_nanotrasen, access_commissary, access_torch_fax,
+		access_nanotrasen, access_commissary, access_hades_fax,
 		access_radio_comm, access_radio_serv
 	)
 
 	software_on_spawn = list(/datum/computer_file/program/reports)
 
 /datum/job/liaison/get_description_blurb()
-	return "You are the Workplace Liaison. You are a civilian employee of EXO, the Expeditionary Corps Organisation, the government-owned corporate conglomerate that partially funds the Torch. You are on board the vessel to promote corporate interests and protect the rights of the contractors on board as their union leader. You are not internal affairs. You advise command on corporate and union matters and contractors on their rights and obligations. Maximise profit. Be the shady corporate shill you always wanted to be."
+	return "You are the Workplace Liaison. You are a civilian employee of EXO, the Expeditionary Corps Organisation, the government-owned corporate conglomerate that partially funds the Hades. You are on board the vessel to promote corporate interests and protect the rights of the contractors on board as their union leader. You are not internal affairs. You advise command on corporate and union matters and contractors on their rights and obligations. Maximise profit. Be the shady corporate shill you always wanted to be."
 
 /datum/job/liaison/post_equip_rank(var/mob/person, var/alt_title)
 	var/my_title = "\a ["\improper [(person.mind ? (person.mind.role_alt_title ? person.mind.role_alt_title : person.mind.assigned_role) : "Executive Assistant")]"]"
@@ -52,7 +52,7 @@
 	economic_power = 12
 	minimal_player_age = 7
 	minimum_character_age = list(SPECIES_HUMAN = 19)
-	outfit_type = /decl/hierarchy/outfit/job/torch/passenger/corporate_bodyguard
+	outfit_type = /decl/hierarchy/outfit/job/hades/passenger/corporate_bodyguard
 	allowed_branches = list(/datum/mil_branch/civilian)
 	allowed_ranks = list(/datum/mil_rank/civ/contractor)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
@@ -73,7 +73,7 @@
 	access = list(
 		access_liaison, access_bridge, access_solgov_crew,
 		access_nanotrasen, access_commissary,
-		access_sec_guard, access_torch_fax, access_radio_serv
+		access_sec_guard, access_hades_fax, access_radio_serv
 	)
 
 	defer_roundstart_spawn = TRUE
