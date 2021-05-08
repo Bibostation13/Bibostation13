@@ -74,10 +74,10 @@ medals
 /obj/item/clothing/accessory/solgov/get_codex_value()
 	return check_codex_val || ..()
 
-/obj/item/clothing/accessory/solgov/hades_patch
+/obj/item/clothing/accessory/solgov/torch_patch
 	name = "\improper hades mission patch"
 	desc = "A fire resistant shoulder patch, worn by the personnel involved in the Hades Project."
-	icon_state = "hadespatch"
+	icon_state = "torchpatch"
 	on_rolled = list("down" = "none")
 	slot = ACCESSORY_SLOT_INSIGNIA
 	sprite_sheets = list(

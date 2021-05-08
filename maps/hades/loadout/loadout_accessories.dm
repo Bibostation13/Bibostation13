@@ -53,10 +53,10 @@
 	flags = GEAR_HAS_TYPE_SELECTION
 	allowed_branches = list(/datum/mil_branch/expeditionary_corps)
 
-/datum/gear/accessory/hades_patch
-	display_name = "Hades mission patch"
-	path = /obj/item/clothing/accessory/solgov/hades_patch
-	description = "A shoulder patch representing the SEV Hades and its mission. Given to all the oddjobs pulled from various branches to work on the Hades."
+/datum/gear/accessory/torch_patch
+	display_name = "Torch mission patch"
+	path = /obj/item/clothing/accessory/solgov/torch_patch // TODO: Replace with Hades patch, delete comment when done.
+	description = "A shoulder patch representing the SEV Torch and its mission. Given to all the oddjobs pulled from various branches to work on the Torch."
 
 /datum/gear/accessory/pilot_pin
 	display_name = "pilot's qualification pin"
