@@ -47,6 +47,7 @@
 /datum/category_item/player_setup_item/player_global/pai/OnTopic(var/href,var/list/href_list, var/mob/user)
 	if(href_list["option"])
 		var/t
+		. = TOPIC_REFRESH
 		switch(href_list["option"])
 			if("name")
 				t = sanitizeName(input(user, "Enter a name for your pAI", "Global Preference", candidate.name) as text|null, MAX_NAME_LEN, 1)
