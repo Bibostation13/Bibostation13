@@ -27,7 +27,8 @@
 	icon = 'icons/obj/cigarettes.dmi'
 	icon_state = "cig_paper"
 	w_class = ITEM_SIZE_TINY
-
+	is_memo = TRUE
+	
 /obj/item/paper/cig/fancy
 	name = "\improper Trident rolling paper"
 	desc = "A thin piece of trident branded paper used to make fine smokeables."

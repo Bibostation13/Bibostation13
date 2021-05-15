@@ -59,7 +59,7 @@
 			to_chat(user, "\The [src] doesn't seem to require repairs.")
 			return TRUE
 		if (S.use(1))
-			to_chat(user, "You apply a bit of \the [W] to \the [src]. It immediately repairs all damage.")
+			to_chat(user, "You apply a bit of \the [W] to \the [src] and repair all the damages.")
 			damage = 0
 		return TRUE
 	// Cable coil. Works as repair method, but will probably require multiple applications and more cable.
