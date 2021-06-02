@@ -2,7 +2,7 @@ version: "3"
 services:
   db:
     build: ../sql
-    image: bs12-db:latest
+    image: bb13-db:latest
     networks:
       - internal
     volumes:
@@ -10,7 +10,7 @@ services:
   game:
     build:
       context: ..
-    image: bs12:latest
+    image: bb13:latest
     environment:
       - RUNAS=1000
     networks:
@@ -18,16 +18,24 @@ services:
     volumes:
       - "../config:/bs12/config:ro"
     ports:
-      - "127.0.0.1:8000:8000"
+      - "127.0.0.1:5000:5000"
   exporter:
-    image: bs12/byond-exporter:latest
+    image: bb13/byond-exporter:latest
     networks:
       - internal
     ports:
       - "127.0.0.1:9070:9070"
     volumes:
       - "../config/config.txt:/exporter/config.txt:ro"
-    command: ["-bind", ":9070", "-host", "game:8000", "-config_file", "/exporter/config.txt"]
+    command:
+      [
+        "-bind",
+        ":9070",
+        "-host",
+        "game:5000",
+        "-config_file",
+        "/exporter/config.txt",
+      ]
   prometheus:
     image: prom/prometheus:latest
     networks:

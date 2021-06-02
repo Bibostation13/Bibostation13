@@ -618,7 +618,7 @@
 	dir = 8;
 	icon_state = "handrail"
 	},
-/obj/structure/closet/secure_closet/hydroponics_torch,
+/obj/structure/closet/secure_closet/hydroponics_hades,
 /turf/simulated/floor/tiled/white,
 /area/map_template/ecship/science)
 "bv" = (

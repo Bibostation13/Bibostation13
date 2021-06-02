@@ -24,15 +24,15 @@ FROM xales/byond:512-latest
 ARG BUILD_ARGS
 ENV RUNAS=root
 
-COPY . /bs12
+COPY . /bb13
 COPY --from=0 /byhttp/to_copy /bs12/lib
 
-WORKDIR /bs12
+WORKDIR /bb13
 RUN apt-get update && apt-get install -y gosu
-RUN scripts/dm.sh $BUILD_ARGS baystation12.dme
+RUN scripts/dm.sh $BUILD_ARGS bibostation13.dme
 
-EXPOSE 8000
-VOLUME /bs12/data
-VOLUME /bs12/config
+EXPOSE 5000
+VOLUME /bb13/data
+VOLUME /bb13/config
 
 ENTRYPOINT ["./docker-entrypoint.sh"]
